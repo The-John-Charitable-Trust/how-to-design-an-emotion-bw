@@ -12,7 +12,6 @@ By inspecting a JavaScript object and expanding its prototype chain in DevTools,
 
 | No installation, server, package, build tool, or editor is required. This demonstration runs entirely inside Chrome's Console. |
 | --- |
-
 # Setting Up the Demo
 
 ## Step 1: Open Chrome DevTools
@@ -32,16 +31,17 @@ Paste the following code into the Console, then press Enter. This creates the th
 Layer 1: The Concept Object
 
 <img src="../../assets/figures/appendix-e/figure-01.png" />
+
 <p align="center">**Source figure 1**</p>
 
 Layer 2: The Instance Objects
 
 <img src="../../assets/figures/appendix-e/figure-02.png" />
+
 <p align="center">**Source figure 2**</p>
 
 | You can paste both code blocks together. Use Shift + Enter to add lines without running the code too early. Press Enter on a blank line to execute the full block. |
 | --- |
-
 After the code runs, the Console prints true twice. Each instance passes the valid() check inherited from Concept.
 
 # Visual Inspection in DevTools
@@ -57,13 +57,13 @@ Click the expand arrow next to the returned object.
 At this level, Chrome shows the object's own properties:
 
 <img src="../../assets/figures/appendix-e/figure-03.png" />
+
 <p align="center">**Source figure 3**</p>
 
 These are the instance's own properties: its particular descriptors and contextual values. This is Layer 2: Instance-Level Realization. The object has a type and a sides value, both assigned at the instance level. They do not define what a triangle is.
 
 | Notice the collapsed [[Prototype]] entry. This is the gateway to the concept layer. Do not expand it yet. |
 | --- |
-
 ## Expand [[Prototype]]: Layer 1
 
 Click the expand arrow next to [[Prototype]], sometimes shown as __proto__.
@@ -71,6 +71,7 @@ Click the expand arrow next to [[Prototype]], sometimes shown as __proto__.
 At this level, Chrome shows the inherited structure:
 
 <img src="../../assets/figures/appendix-e/figure-04.png" />
+
 <p align="center">**Source figure 4**</p>
 
 This is Layer 1: Concept-Level Constraint. Here you observe:
@@ -85,7 +86,6 @@ These constraints do not come from the instances below them. The instances inher
 
 | This is the key observation: identity is upstream. The concept is not a summary of its instances. It is the constraint that makes those instances intelligible as instances of anything at all. |
 | --- |
-
 ## Expand Further: Layer 0
 
 Expand the second [[Prototype]] entry inside the first.
@@ -93,6 +93,7 @@ Expand the second [[Prototype]] entry inside the first.
 At this level, Chrome shows JavaScript's runtime infrastructure:
 
 <img src="../../assets/figures/appendix-e/figure-05.png" />
+
 <p align="center">**Source figure 5**</p>
 
 This is Layer 0: Runtime Infrastructure Constraint. You have reached Object.prototype, the terminus of JavaScript's ordinary prototype chain. The final [[Prototype]] is null. Delegation has a boundary. Property lookup has an end.
@@ -101,7 +102,6 @@ This layer makes constraint inheritance possible, but it does not encode concept
 
 | Layer 0 is what classical essentialism can misidentify as the concept itself: identity conditions treated as infrastructural necessities. DevTools shows they are not. Layer 1 is revisable. Layer 0 is not. |
 | --- |
-
 # Demonstrating Layer-Specific Change
 
 Each operation below targets a different ontological layer and produces a different kind of change. Run them in sequence to see what changes, what remains stable, and why the distinction matters.
@@ -111,6 +111,7 @@ Each operation below targets a different ontological layer and produces a differ
 Assign an invalid value to the instance's own property.
 
 <img src="../../assets/figures/appendix-e/figure-06.png" />
+
 <p align="center">**What this shows:**</p>
 
 What this shows:
@@ -127,8 +128,8 @@ Prototype theory can describe variation among instances, but this operation show
 
 | Typicality gradients and variability (the phenomena prototype theory correctly observes) appear here at Layer 2. But they presuppose the stability of Layer 1. |
 | --- |
-
 <img src="../../assets/figures/appendix-e/figure-07.png" />
+
 <p align="center">**Source figure 7**</p>
 
 ## B. Parametric Revision: Layer 1 Change
@@ -152,6 +153,7 @@ The extension of the concept shifts, but the architecture remains intact. Classi
 Remove the evaluative rule from the prototype.
 
 <img src="../../assets/figures/appendix-e/figure-08.png" />
+
 <p align="center">**Source figure 8**</p>
 
 What this shows:
@@ -166,7 +168,6 @@ The distinction between parametric revision and structural revision matters. One
 
 | DevTools preserves this distinction in memory. A theory of concepts should preserve it in thought. |
 | --- |
-
 # The Three-Layer Ontology: Summary
 
 The prototype chain visible in DevTools renders the layered ontology argued in Chapter 5. The three layers are not interpretive. Chrome displays them as runtime structure.
@@ -177,8 +178,7 @@ The prototype chain visible in DevTools renders the layered ontology argued in C
 | 1 | Concept-Level Constraint | Encodes identity; fixes admissibility conditions and evaluative rule | Concept prototype object |
 | 2 | Instance-Level Realization | Contextual values; particular assignments; graded variability | equilateral, scalene objects |
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------  
-**Table E-1. Three-Layer Ontology: Runtime Infrastructure, Concept-Level Constraint, and Instance-Level Realization**
+<p align="center">**Table E-1. Three-Layer Ontology: Runtime Infrastructure, Concept-Level Constraint, and Instance-Level Realization**</p>
 
 # Philosophical Implications
 
@@ -204,7 +204,6 @@ These are not competing answers to the same question. They answer different ques
 
 | Identity conditions stand upstream. Variability unfolds downstream.<br><br>Chrome DevTools makes both visible. A viable theory of concepts must preserve this distinction. It must not confuse sameness with similarity, identity conditions with frequency, or structure with execution. |
 | --- |
-
 ## Conclusion
 
 Appendix E supplies the runtime demonstration of the layered ontology. DevTools shows that instance behavior does not create the concept layer, and prototype effects do not replace inherited constraint. The appendix therefore answers its governing question: JavaScript's prototype chain does not vindicate prototype theory as concept theory. It makes visible the distinction between infrastructure, identity conditions, and instance-level variation.

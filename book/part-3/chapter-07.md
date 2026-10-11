@@ -239,18 +239,15 @@ Figure 7-1 presents the UML Class Diagram for the Integer Constructivist Semioti
 
 ![Chapter 7 illustration 1](../../assets/figures/chapter-07/figure-01.png)
 
-
-*Figure 7-1. Foundational Integer Constructivist Semiotic Sign UML Class Diagram*
+<p align="center">**Figure 7-1. Foundational Integer Constructivist Semiotic Sign UML Class Diagram**</p>
 
 ![Chapter 7 illustration 2](../../assets/figures/chapter-07/figure-02.png)
 
-
-*Figure 7-2. Foundational Integer Constructivist Semiotic Sign UML Object Diagram*
+<p align="center">**Figure 7-2. Foundational Integer Constructivist Semiotic Sign UML Object Diagram**</p>
 
 Figure 7-2 presents the UML Object Diagram, showing a concrete execution of the architecture. Here, the model assigns specific values to each abstract class. This demonstrates instantiation integrity: the system preserves the distinction between definition (Concept) and instance (Construct) under execution.
 
 ![Chapter 7 illustration 3](../../assets/figures/chapter-07/figure-03.png)
-
 (Meaning: '7' refers to the value 7 (int) in the context of days in a week, for the goal of Determine how many days are in a week. Interpreter: Cezjah.)
 
 The system does not retrieve this output. It generates it. The output represents the successful coordination of all five constituents under a governing goal. Remove any one component and the system cannot produce meaning. The symbol alone does not explain itself. The concept alone does not determine relevance. The construct alone does not fix interpretation. Only the interpreter’s governed act produces a result that can succeed or fail.
@@ -268,15 +265,12 @@ Two cases test the boundary.
 Valid instantiation:
 
 ![Chapter 7 illustration 4](../../assets/figures/chapter-07/figure-04.png)
-
 Invalid instantiation:
 
 ![Chapter 7 illustration 5](../../assets/figures/chapter-07/figure-05.png)
-
 Output:
 
 ![Chapter 7 illustration 6](../../assets/figures/chapter-07/figure-06.png)
-
 This distinction demonstrates instantiation integrity. The Concept defines the admissibility conditions that govern whether the system can form a Construct. The system does not interpret arbitrarily. It rejects inputs that fail to satisfy the Concept’s type requirements.
 
 The result is decisive. In the valid case, the Identifier’s symbolic value satisfies the Concept’s type conditions, the system forms a Construct, and all constituents coordinate successfully to produce meaning. In the invalid case, the input symbol fails the Concept’s type conditions, so the system cannot form a Construct. The process halts before interpretation.
@@ -294,17 +288,11 @@ The project preserves the same architectural structure used in Projects 1 and 2.
 The project evaluates three contexts.
 
 ![Chapter 7 illustration 7](../../assets/figures/chapter-07/figure-07.png)
-
 ![Chapter 7 illustration 8](../../assets/figures/chapter-07/figure-08.png)
-
 ![Chapter 7 illustration 9](../../assets/figures/chapter-07/figure-09.png)
-
 ![Chapter 7 illustration 10](../../assets/figures/chapter-07/figure-10.png)
-
 ![Chapter 7 illustration 11](../../assets/figures/chapter-07/figure-11.png)
-
 ![Chapter 7 illustration 12](../../assets/figures/chapter-07/figure-12.png)
-
 Case 1:  Meaning: '7' refers to the value 7 (int) in the context of days in a week, for the goal of Interpret the meaning of the symbol under context. Interpreter: Cezjah.
 
 Case 2: Meaning: '7' refers to the value 7 (int) in the context of jersey number, for the goal of Interpret the meaning of the symbol under context. Interpreter: Cezjah.
@@ -326,17 +314,11 @@ The project preserves the same architecture and scenario from prior projects. Th
 The project evaluates three goals.
 
 ![Chapter 7 illustration 13](../../assets/figures/chapter-07/figure-13.png)
-
 ![Chapter 7 illustration 14](../../assets/figures/chapter-07/figure-14.png)
-
 ![Chapter 7 illustration 15](../../assets/figures/chapter-07/figure-15.png)
-
 ![Chapter 7 illustration 16](../../assets/figures/chapter-07/figure-16.png)
-
 ![Chapter 7 illustration 17](../../assets/figures/chapter-07/figure-17.png)
-
 ![Chapter 7 illustration 18](../../assets/figures/chapter-07/figure-18.png)
-
 Case 1: Meaning: '7' refers to the value 7 (int) in the context of days in a week, for the goal of Determine how many days are in a week. Interpreter: Cezjah.
 
 Case 2: Meaning: '7' refers to the value 7 (int) in the context of days in a week, for the goal of Validate a weekly schedule. Interpreter: Cezjah.
@@ -362,9 +344,7 @@ The project preserves the same architecture and scenario from the prior demonstr
 Execution:
 
 ![Chapter 7 illustration 19](../../assets/figures/chapter-07/figure-19.png)
-
 ![Chapter 7 illustration 20](../../assets/figures/chapter-07/figure-20.png)
-
 In the first mode, the system performs signal processing. It parses the input and produces a value. This operation detects structure and correlation, but it does not determine what the symbol is for. The system evaluates no context, applies no goal, and invokes no standard of success. It produces an output, but nothing is at stake.
 
 In the second mode, the system processes the same input as a sign. The Interpreter coordinates the Identifier, Concept, Construct, and Referent under a governing goal. The system generates meaning, and the Interpreter can evaluate the result. Here, interpretation can succeed or fail. The output does not merely result from computation; it gains justification relative to a purpose.
@@ -377,15 +357,13 @@ With these demonstrations complete, the Constructivist Semiotic Sign has survive
 
 ![Chapter 7 illustration 21](../../assets/figures/chapter-07/figure-21.png)
 
-
-*Figure 7-3. Formal Integer Constructivist Semiotic Sign UML Class Diagram*
+<p align="center">**Figure 7-3. Formal Integer Constructivist Semiotic Sign UML Class Diagram**</p>
 
 Figure 7-3 represents the Class Diagram, the foundational architecture for this theory of meaning. It defines the necessary constituents: Identifier, Concept, Construct, Referent, and Interpreter, and the specific relationships between them. The Interpreter coordinates the architecture by consuming the Identifier, Concept, Construct, and Referent and generating meaning under a governing goal. This structure shows that meaning is not a physical object to be found, but a result produced by an agent under constraint. By defining the GenerateMeaning() method within the Interpreter, the architecture ensures that interpretation remains a governed cognitive act rather than a subjective feeling.
 
 ![Chapter 7 illustration 22](../../assets/figures/chapter-07/figure-22.png)
 
-
-*Figure 7-4. Formal Integer Constructivist Semiotic Sign UML Object Diagram*
+<p align="center">**Figure 7-4. Formal Integer Constructivist Semiotic Sign UML Object Diagram**</p>
 
 Figure 7-4 provides the Object Diagram, representing a concrete instance of formal execution. It captures the system in the act of specific identification.<sup><a href="../references/notes/chapter-07.md#note-48">48</a></sup>
 
@@ -409,8 +387,7 @@ This output is the evidence of the system. It is the dependent achievement of a 
 
 ![Chapter 7 illustration 23](../../assets/figures/chapter-07/figure-23.png)
 
-
-*Figure 7-5. Integer Constructivist Semiotic Sign UML Activity Diagram*
+<p align="center">**Figure 7-5. Integer Constructivist Semiotic Sign UML Activity Diagram**</p>
 
 Figure 7-5 illustrates the architectural execution of the sign through a UML activity diagram. Having shown architecture (class) and instance (object), I now show process (activity) so the order of interpretive constraints becomes explicit. This diagram maps the transition from raw symbolic inputs to a concrete, goal-directed interpretation.<sup><a href="../references/notes/chapter-07.md#note-49">49</a></sup>
 

@@ -58,7 +58,7 @@ Saussure sought to identify the structural principles that make communication po
 
 ![Illustration from Chapter 8](../../assets/figures/chapter-08/ch08-e34fcee32740.png)
 
-Figure 8-1. Saussure's Dyadic Sign
+<p align="center">**Figure 8-1. Saussure's Dyadic Sign**</p>
 
 Figure 8-1 depicts the dyadic sign, a unity composed of two inseparable components:
 
@@ -154,7 +154,7 @@ In Figure 8-2, Charles Sanders Peirce presents a triadic model of the sign, whic
 
 ![Illustration from Chapter 8](../../assets/figures/chapter-08/ch08-aed635a8c4c1.png)
 
-Figure 8-2. Peirce's Triadic Sign
+<p align="center">**Figure 8-2. Peirce's Triadic Sign**</p>
 
 Peirce’s model defines a sign as an irreducible relationship between three parts:
 
@@ -276,7 +276,7 @@ The preceding analysis isolates a common architectural gap in classical semiotic
 
 ![Illustration from Chapter 8](../../assets/figures/chapter-08/ch08-e9f444abc6a5.png)
 
-Figure 8-3. Constructivist Semiotic Sign UML Class Diagram
+<p align="center">**Figure 8-3. Constructivist Semiotic Sign UML Class Diagram**</p>
 
 Figure 8-3 illustrates the Constructivist Semiotic Sign as a multi-constituent formal architecture. Unlike historical dyadic or triadic models, this framework uses architecture and governing principles to maintain strict boundaries between the elements of meaning so that they remain operationally distinct under formal execution.<sup><a href="../../references/notes/chapter-08.md#note-123">123</a></sup>
 

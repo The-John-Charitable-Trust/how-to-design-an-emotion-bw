@@ -201,22 +201,17 @@ The corresponding C# executables for the projects below appear in the downloaded
 
 ![Chapter 2 figure 01](../../assets/figures/chapter-02/figure-01.png)
 
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-1. Integer Concept UML Class Diagram
+<p align="center">**Figure 2-1. Integer Concept UML Class Diagram**</p>
 
 ![Chapter 2 figure 02](../../assets/figures/chapter-02/figure-02.png)
 
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-2. Integer Construct UML Object Diagram
+<p align="center">**Figure 2-2. Integer Construct UML Object Diagram**</p>
 
 To illustrate my use of object-oriented architecture and UML to model the ontology of an idea, consider the simple case of an integer. The UML class diagram in figure 2-1 declares the concept by fixing its identity conditions independently of any particular instance. In C#, this corresponds to a declaration of type without determinate assignment.
 
 The numeral “7” or the word “Seven” functions only as an identifier. The label does not supply meaning. The concept int supplies identity conditions as constraints because it declares what counts as an integer. The instantiation of that concept into a construct supplies determinate meaning by assigning values within those constraints. The object diagram in figure 2-2 then shows how declared structure becomes a construct when omitted measurements receive determinate values. In C#, this corresponds to initialization.
 
 ![Chapter 2 figure 03](../../assets/figures/chapter-02/figure-03.png)
-
 Or, in a single unified form:
 
 The universal continues to govern the realization. Identity conditions do not change. Only realization varies.
@@ -226,18 +221,13 @@ Project 1 uses runtime parameters documented in its README. The project passes t
 This is the corresponding output:
 
 ![Chapter 2 figure 04](../../assets/figures/chapter-02/figure-04.png)
-
 ![Chapter 2 figure 05](../../assets/figures/chapter-02/figure-05.png)
 
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-3. Right Concept UML Class Diagram
+<p align="center">**Figure 2-3. Right Concept UML Class Diagram**</p>
 
 ![Chapter 2 figure 06](../../assets/figures/chapter-02/figure-06.png)
 
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-4. Driving Right UML Object Diagram
+<p align="center">**Figure 2-4. Driving Right UML Object Diagram**</p>
 
 Figure 2-3 presents the concept Right as a UML class. It fixes the intensional structure of a right by declaring its essential components: an identifier, the value at stake, an assertion of authority over that value, and an attestation that validates the claim. In line with the analytic definition advanced here, a right is the authority to gain or keep a value. The class declares identity conditions without asserting that any particular right exists.
 
@@ -250,32 +240,23 @@ Project 2 uses runtime parameters documented in its README. The project passes t
 This is the corresponding output:
 
 ![Chapter 2 figure 07](../../assets/figures/chapter-02/figure-07.png)
-
 Figures 2-5 through 2-8 model core affect as the physiological substrate of feeling prior to emotion construction. In this framework, I define CoreAffect as a concept and implement it as a UML class. It declares the essential dimensions that constitute affective state as such: valence, arousal, and motivational intensity. These are not emotions, meanings, or attitudes. They fix only the identity conditions of affect at the most fundamental level.
 
 ![Chapter 2 figure 08](../../assets/figures/chapter-02/figure-08.png)
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-5. Core Affect Concept UML Class Diagram
+<p align="center">**Figure 2-5. Core Affect Concept UML Class Diagram**</p>
 
 ![Chapter 2 figure 09](../../assets/figures/chapter-02/figure-09.png)
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-6. Calm State UML Object Diagram
+<p align="center">**Figure 2-6. Calm State UML Object Diagram**</p>
 
 ![Chapter 2 figure 10](../../assets/figures/chapter-02/figure-10.png)
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-7. Excited State UML Object Diagram
+<p align="center">**Figure 2-7. Excited State UML Object Diagram**</p>
 
 ![Chapter 2 figure 11](../../assets/figures/chapter-02/figure-11.png)
 
-
------------------------------------------------------------------------------------------------------------------------------------------------------
-Figure 2-8. Distress State UML Object Diagram
+<p align="center">**Figure 2-8. Distress State UML Object Diagram**</p>
 
 The corresponding object diagrams in figures 2-6 through 2-8 show multiple instantiated core affect states. Each object assigns determinate values to the same declared structure, demonstrating how a single concept admits diverse realizations without altering its identity conditions. The concept continues to govern each realization. Identity conditions do not change. Only instantiation varies.<sup><a href="../references/notes/chapter-02.md#note-96">96</a></sup>
 
@@ -288,7 +269,6 @@ Project 3 uses runtime parameters documented in its README. The project passes d
 This is the corresponding output:
 
 ![Chapter 2 figure 12](../../assets/figures/chapter-02/figure-12.png)
-
 Appendix B extends the framework through more complex UML diagrams. It uses associations such as inheritance and composition to model how affective states such as emotions, moods, and drives derive from feeling as a common structural base. It also applies structuralist syntagmatic relations to show how ordered association, not isolated elements, produces meaning. Finally, it introduces GoF creational patterns, including Factory and Prototype, to model the construction of emotional instances from stable conceptual structure rather than their discovery as natural kinds.<sup><a href="../references/notes/chapter-02.md#note-99">99</a></sup>
 
 The following propositions summarize the architectural commitments required to define, instantiate, and evaluate ideas as structured systems.
