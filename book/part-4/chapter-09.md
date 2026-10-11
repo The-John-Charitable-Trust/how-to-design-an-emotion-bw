@@ -383,11 +383,11 @@ The point is not that Romance, Lust, and Attachment name three unrelated emotion
 </tr>
 <tr class="even">
 <td>Referent</td>
-<td><img src="../../assets/figures/chapter-09/figure-04.png" /><strong><br />
+<td><img src="../../assets/figures/chapter-09/figure-04.svg" /><strong><br />
 </strong>Romantic encounter</td>
-<td><img src="../../assets/figures/chapter-09/figure-05.png" /><br />
+<td><img src="../../assets/figures/chapter-09/figure-05.svg" /><br />
 Sexually charged environment</td>
-<td><img src="../../assets/figures/chapter-09/figure-06.png" /><br />
+<td><img src="../../assets/figures/chapter-09/figure-06.svg" /><br />
 Parents with child and dog</td>
 </tr>
 <tr class="odd">
