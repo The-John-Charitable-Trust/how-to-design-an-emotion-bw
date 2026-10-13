@@ -14,7 +14,7 @@
 
 *The first deliverable is the Constructivist Semiotic Model of Emotions (CSME), a formal cognitive-semiotic architecture that specifies the identity conditions and semiotic structure through which an agent constructs emotional meaning.*
 
-*The second deliverable is the Constructivist Computational Model of Emotions (CCME), an executable computational architecture that validates the CSME by preserving its ontological distinctions under computational constraint.*
+*The second deliverable is the Constructivist Computational Model of Emotions (CCME), an executable specification that tests the CSME for internal consistency by preserving its ontological distinctions under computational constraint.*
 
 *The third deliverable is the Constructivist Interpretation Theory of Emotion (CITE), which defines emotion as an interpretive act through which an agent assigns meaning and significance to feeling, rather than as the output of appraisal or bodily processes.*
 
@@ -58,7 +58,7 @@ These questions define the remaining objectives of this chapter. I will establis
 
 My final objective is to restore interpretive governance by locating emotional meaning within an interpretive act performed by an agent. If emotional meaning depends upon interpretation, then it must admit correctness, error, validity, invalidity, justification, revision, and responsibility. I therefore treat agency as a formal architectural requirement, ensuring that emotion remains an accountable cognitive-semiotic achievement rather than the output of bodily or predictive processes.
 
-In this chapter, I do more than argue that emotions are constructions. I integrate ontological identity conditions, cognitive-semiotic interpretation, computational execution, and formal verification into a single architecture of emotional meaning. I distinguish physiological affect, feeling, and emotion as non-substitutable ontological constructs. I establish the bridge between semiotic availability and semantic achievement. I define emotion as the interpretive act through which an agent constructs emotional meaning under correctness conditions. I validate the architecture through a weighted score matrix trade study, specify its ontology through UML, and verify its computational coherence through executable implementations. I subject every proposition to definitional, analytic, cognitive-semiotic, and computational constraints, requiring the architecture to survive each without ontological collapse. Existing frameworks do not integrate these architectural, semiotic, and computational requirements into a single, formally specified account of emotional meaning.
+In this chapter, I do more than argue that emotions are constructions. I integrate ontological identity conditions, cognitive-semiotic interpretation, computational execution, and formal specification into a single architecture of emotional meaning. I distinguish physiological affect, feeling, and emotion as non-substitutable ontological constructs. I establish the bridge between semiotic availability and semantic achievement. I define emotion as the interpretive act through which an agent constructs emotional meaning under correctness conditions. I select the contributions it preserves through a weighted score matrix trade study, specify its ontology through UML, and check its internal consistency through executable specifications. I subject every proposition to definitional, analytic, cognitive-semiotic, and computational constraints, requiring the architecture to survive each without ontological collapse. Existing frameworks do not integrate these architectural, semiotic, and computational requirements into a single, formally specified account of emotional meaning.
 
 I therefore offer more than another theory of emotion. I specify an accountable architecture that enables an agent to construct emotional meaning.
 
@@ -80,6 +80,29 @@ To preserve the flow of the argument, I report only the final results of the wei
 | Conceptual Act Theory / TCE (Barrett) (Conditional)    | 0.55 × 30 = 16.5   | 0.50 × 20 = 10.0 | 0.45 × 25 = 11.25        | 0.65 × 25 = 16.25   | 54.00                |
 
 <p align="center">**Table 9-1. Consolidated Weighted Score Matrix (WSM) Showing the Architectural Viability of Surviving Emotion Theories**</p>
+
+The trade study has limits, and I state them. One rater, the author, set the criteria, the weights, and the scores. No second rater has scored the candidates, so no reliability figure exists; I invite one. The weights follow from this book’s governing principles, so the study measures fit to my architectural criteria, not truth. The CSME is not scored, because the criteria come from it.
+
+Within those limits, I tested whether the ranking depends on the weights. Table 9-2 reports the totals under equal weights and under every shift of ten points from one domain to another. The order holds under equal weights and under nine of the twelve shifts. In the other three, each of which raises the cognitive–semiotic weight to 35, the Component Process Model moves ahead of affective neuroscience, and in one appraisal theory does too. Conceptual Act Theory ranks last under every weighting. The study’s practical use, deciding which contributions to preserve, does not depend on the order at the top.
+
+| Weights (Def / Ana / Cog–Sem / Comp) | Affective Neuroscience | CPM | Appraisal | CAT / TCE | Order changed? |
+| --- | --- | --- | --- | --- | --- |
+| 30 / 20 / 25 / 25 (book) | 72.00 | 69.25 | 66.75 | 54.00 | — |
+| 25 / 25 / 25 / 25 (equal) | 71.25 | 68.75 | 66.25 | 53.75 | No |
+| 40 / 10 / 25 / 25 | 73.50 | 70.25 | 67.75 | 54.50 | No |
+| 40 / 20 / 15 / 25 | 77.00 | 70.75 | 67.25 | 55.00 | No |
+| 40 / 20 / 25 / 15 | 73.00 | 71.25 | 68.75 | 53.00 | No |
+| 20 / 30 / 25 / 25 | 70.50 | 68.25 | 65.75 | 53.50 | No |
+| 30 / 30 / 15 / 25 | 75.50 | 69.75 | 66.25 | 54.50 | No |
+| 30 / 30 / 25 / 15 | 71.50 | 70.25 | 67.75 | 52.50 | No |
+| 20 / 20 / 35 / 25 | 67.00 | 67.75 | 66.25 | 53.00 | Yes: CPM first |
+| 30 / 10 / 35 / 25 | 68.50 | 68.75 | 67.25 | 53.50 | Yes: CPM first |
+| 30 / 20 / 35 / 15 | 68.00 | 69.75 | 68.25 | 52.00 | Yes: CPM, then appraisal, ahead of affective neuroscience |
+| 20 / 20 / 25 / 35 | 71.00 | 67.25 | 64.75 | 55.00 | No |
+| 30 / 10 / 25 / 35 | 72.50 | 68.25 | 65.75 | 55.50 | No |
+| 30 / 20 / 15 / 35 | 76.00 | 68.75 | 65.25 | 56.00 | No |
+
+<p align="center">**Table 9-2. Sensitivity of the Weighted Score Matrix to Domain Weights**</p>
 I now construct the Constructivist Semiotic Model of Emotions (CSME) by integrating the indispensable architectural contributions identified through the comparative trade study. I organize those contributions within a unified cognitive-semiotic architecture that preserves their explanatory strengths while maintaining stable ontological distinctions and computational coherence.
 
 I begin with Conceptual Act Theory (CAT), or the Theory of Constructed Emotion (TCE), because it contributes one of the most important architectural insights to the Constructivist Semiotic Model of Emotions (CSME) despite receiving the lowest architectural viability score among the qualifying candidates. Barrett rejects the view that emotions exist as intrinsic natural kinds waiting for discovery.<sup><a href="../references/notes/chapter-09.md#note-10">10</a></sup> Instead, she explains how agents construct emotional meaning through the interaction of physiological affect,<sup><a href="../references/notes/chapter-09.md#note-11">11</a></sup> conceptual knowledge,<sup><a href="../references/notes/chapter-09.md#note-12">12</a></sup> prediction,<sup><a href="../references/notes/chapter-09.md#note-13">13</a></sup> prior experience,<sup><a href="../references/notes/chapter-09.md#note-14">14</a></sup> and context.<sup><a href="../references/notes/chapter-09.md#note-15">15</a></sup>
@@ -165,9 +188,8 @@ The preceding declarations establish three non-substitutable ontological constru
 | Feeling       | Subjective phenomenological awareness      | Conscious metaperceptual awareness of a semiotically available affective experience.                                          | Conscious availability  |
 | Emotion       | Cognitive‑semiotic interpretive construct  | Goal‑governed, context‑sensitive interpretive act by which an agent assigns meaning and significance to feeling.              | Emotional meaning       |
 
-<p align="center">**Table 9-2. Tripartite Ontology of Affect, Feeling, and Emotion**</p>
+<p align="center">**Table 9-3. Tripartite Ontology of Affect, Feeling, and Emotion**</p>
 
-—------------------------------------------------------------------------------------------------------------------------------------------------------  
 The tripartite ontology resolves the longstanding conflation of physiology, consciousness, and interpretation by assigning each construct a unique ontological identity and explanatory role.
 
 I now specify how these constructs interact within the Constructivist Semiotic Model of Emotions (CSME). The layered architecture preserves the physiological foundation of affect, the phenomenological awareness of feeling, and the cognitive-semiotic construction of emotion while assigning each construct a distinct explanatory role within a single computational sequence.
@@ -183,9 +205,8 @@ I now specify how these constructs interact within the Constructivist Semiotic M
 | Commitment             | Normative              | Authorize one interpretation                 | “This is fear.”                          |
 | Emotion                | Cognitive‑Semiotic     | Stabilized emotional meaning                 | Fear, relief, gratitude                  |
 
-<p align="center">**Table 9-3. Layered Architecture of Emotional Construction**</p>
+<p align="center">**Table 9-4. Layered Architecture of Emotional Construction**</p>
 
-—------------------------------------------------------------------------------------------------------------------------------------------------------  
 The layered architecture preserves the architectural differentiation introduced by the Component Process Model while extending it through explicit ontological separation. It also preserves the constructivist insight that emotional meaning emerges through interpretation while mitigating the longstanding conflation of objective physiology, subjective awareness, and emotional meaning.
 
 The familiar experience of touching a hot stove illustrates why that distinction matters.
@@ -201,9 +222,8 @@ The familiar experience of touching a hot stove illustrates why that distinction
 | Commitment             | Endorse one interpretation          | “This is dangerous.”                                                                  |
 | Emotion                | Cognitive‑semiotic construct        | Fear, anger, embarrassment, relief                                                    |
 
-<p align="center">**Table 9-4. From Physical Pain to Psychological Emotion**</p>
+<p align="center">**Table 9-5. From Physical Pain to Psychological Emotion**</p>
 
-—------------------------------------------------------------------------------------------------------------------------------------------------------  
 Suppose I fall and break my hand. The fracture produces tissue damage, physiological affect, and interoceptive signaling. Feeling makes that bodily condition consciously available through metaperception. At this stage, I consciously perceive my injured hand, but I have not yet constructed emotional meaning. The interpreter first constructs a **somatic state** by recognizing the bodily condition as injury. When I subsequently contemplate the consequences of that injury for my goals, activities, or future well-being, I experience **psychological pain**. Although psychological pain arises from the somatic state, it does not yet constitute emotion. Only after the interpreter assigns meaning and significance to that experience do emotions such as sadness, frustration, fear, or relief emerge.
 
 This sequence resolves a longstanding ontological ambiguity. The CSME distinguishes physiological affect, metaperceived feeling, somatic state, psychological pain, and emotion as successive explanatory levels. Somatic states classify the condition of the body. Psychological pain expresses the conscious experience of the body’s affective disturbance. Emotion arises only when the interpreter assigns meaning and significance to that experience relative to goals and context. Although these operations often occur rapidly and appear unified in experience, they perform different explanatory functions and therefore cannot substitute for one another.
@@ -223,9 +243,9 @@ The same layered architecture resolves another longstanding philosophical ambigu
 | Commitment        | Endorse one interpretation            | “The forest path may be blocked.”              |
 | Belief            | Stabilized cognitive construct        | “The tree fell.”                               |
 
-<p align="center">**Table 9-5. From Physical Sound to Auditory Experience**</p>
+<p align="center">**Table 9-6. From Physical Sound to Auditory Experience**</p>
 
-**Table 9-5 resolves this ambiguity by separating the physical event from its conscious perception.** Acoustic pressure waves belong to the physical world. Auditory encoding belongs to the nervous system. Hearing belongs to conscious awareness. The table therefore distinguishes sensation, encoding, and perception as separate explanatory layers rather than treating them as a single phenomenon.
+**Table 9-6 resolves this ambiguity by separating the physical event from its conscious perception.** Acoustic pressure waves belong to the physical world. Auditory encoding belongs to the nervous system. Hearing belongs to conscious awareness. The table therefore distinguishes sensation, encoding, and perception as separate explanatory layers rather than treating them as a single phenomenon.
 
 The same architectural distinction applies to affect, feeling, and emotion. Physiological affect belongs to the body. Feeling belongs to conscious awareness. Emotion belongs to interpretation. The CSME therefore resolves both thought experiments by distinguishing objective processes, conscious perception, and cognitive-semiotic interpretation without collapsing one into another.
 
@@ -261,9 +281,9 @@ This bridge also resolves one of the principal ambiguities that motivated the pr
 | Commitment              | Normative              | Endorses one interpretation as authoritative      | Semantic achievement  |
 | Emotion                 | Cognitive‑Semiotic     | Stabilizes the committed interpretation           | Emotional meaning     |
 
-<p align="center">**Table 9-6. The Bridge Between Semiotic Availability and Semantic Achievement**</p>
+<p align="center">**Table 9-7. The Bridge Between Semiotic Availability and Semantic Achievement**</p>
 
-Table 9-6 shows that emotion emerges only after an agent completes the transition from semiotic availability to semantic achievement.
+Table 9-7 shows that emotion emerges only after an agent completes the transition from semiotic availability to semantic achievement.
 
 The bridge between semiotic availability and semantic achievement resolves the ambiguity introduced at the beginning of this chapter. Consider again the experience of walking alone at night and hearing footsteps accelerating behind you. Physiological affect elevates arousal, narrows attention, and prepares the organism for action. Interoceptive systems encode those physiological changes, and feeling makes them consciously available as tension and urgency. At this point, however, emotional meaning remains undetermined.
 
@@ -418,10 +438,9 @@ Parents with child and dog</td>
 </tbody>
 </table>
 
-—--------------------------------------------------------------------------------------------------------------------------------------------------------  
-<p align="center">**Table 9-7. Interpretive Variations of Love under the Constructivist Semiotic Model of Emotions**</p>
+<p align="center">**Table 9-8. Interpretive Variations of Love under the Constructivist Semiotic Model of Emotions**</p>
 
-Table 9-7 shows why CSME treats emotion as interpretive construction rather than simple biological activation. Biochemistry contributes real constraint, but it does not determine the emotion by itself. Context contributes real constraint, but it does not determine the emotion by itself. The agent constructs the emotion sign by binding felt state, context, concept, identifier, and goal into a coherent interpretation. In this sense, Romance, Lust, and Attachment function as distinct interpretations of Love rather than as isolated emotional substances.
+Table 9-8 shows why CSME treats emotion as interpretive construction rather than simple biological activation. Biochemistry contributes real constraint, but it does not determine the emotion by itself. Context contributes real constraint, but it does not determine the emotion by itself. The agent constructs the emotion sign by binding felt state, context, concept, identifier, and goal into a coherent interpretation. In this sense, Romance, Lust, and Attachment function as distinct interpretations of Love rather than as isolated emotional substances.
 
 Emotional meaning exists only when an agent interprets a sign relative to a goal and a context. I therefore require identifiable constituents, an act of interpretation, and constraints that allow success or failure. Without these, I can describe a biological event or a behavioral reflex, but I cannot claim emotional meaning.
 
@@ -660,7 +679,7 @@ The five projects have now performed a single task under different constraints. 
 
 Each project isolates a failure point in contemporary emotion theory and replaces it with an executable constraint. The first project fixes identity conditions by demonstrating that a concept governs its instances through admissibility rather than emerging from classification. The second project secures the bridge condition by showing that a feeling may be available for interpretation without already possessing meaning. The third project restores interpretive governance by proving that the same feeling-in-context yields different emotions under different goals. The fourth project preserves phase separation by enforcing the ordered transition from situation to feeling to interpretation without collapse. The fifth project establishes revisability by showing that meaning can change while the underlying feeling remains constant.
 
-Taken together, these projects do not merely illustrate the theory. They constrain it. Each executable forces a distinction that the architecture requires. If any distinction is removed, the code collapses into contradiction. Identity dissolves into grouping. Availability collapses into meaning. The body is mistaken for the interpreter. Sequence collapses into simultaneity. Revision becomes impossible. The projects therefore function as proof by failure. They show not only what the model asserts, but what breaks when its constraints are violated.
+Taken together, these projects do not merely illustrate the theory. They constrain it. Each executable forces a distinction that the architecture requires. If any distinction is removed, the code can no longer state the claim that depends on it. Identity dissolves into grouping. Availability collapses into meaning. The body is mistaken for the interpreter. Sequence collapses into simultaneity. Revision becomes impossible. The projects therefore work as executable specifications. They show what the model asserts and what breaks when its constraints are violated. They do not test the model against data; the programs encode its distinctions by design, so they establish internal consistency, not truth.
 
 The result is a system in which emotional meaning survives computational pressure without sacrificing philosophical precision. The architecture holds. Affect remains causal. Feeling remains experiential. Emotion remains interpretive. The agent remains responsible.
 
