@@ -153,7 +153,6 @@ The preceding declarations establish three non-substitutable ontological constru
 
 <p align="center">**Table 9-2. Tripartite Ontology of Affect, Feeling, and Emotion**</p>
 
-
 —------------------------------------------------------------------------------------------------------------------------------------------------------  
 The tripartite ontology resolves the longstanding conflation of physiology, consciousness, and interpretation by assigning each construct a unique ontological identity and explanatory role.
 
@@ -172,7 +171,6 @@ I now specify how these constructs interact within the Constructivist Semiotic M
 
 <p align="center">**Table 9-3. Layered Architecture of Emotional Construction**</p>
 
-
 —------------------------------------------------------------------------------------------------------------------------------------------------------  
 The layered architecture preserves the architectural differentiation introduced by the Component Process Model while extending it through explicit ontological separation. It also preserves the constructivist insight that emotional meaning emerges through interpretation while mitigating the longstanding conflation of objective physiology, subjective awareness, and emotional meaning.
 
@@ -190,7 +188,6 @@ The familiar experience of touching a hot stove illustrates why that distinction
 | Emotion                | Cognitive‑semiotic construct        | Fear, anger, embarrassment, relief                                                    |
 
 <p align="center">**Table 9-4. From Physical Pain to Psychological Emotion**</p>
-
 
 —------------------------------------------------------------------------------------------------------------------------------------------------------  
 Suppose I fall and break my hand. The fracture produces tissue damage, physiological affect, and interoceptive signaling. Feeling makes that bodily condition consciously available through metaperception. At this stage, I consciously perceive my injured hand, but I have not yet constructed emotional meaning. The interpreter first constructs a **somatic state** by recognizing the bodily condition as injury. When I subsequently contemplate the consequences of that injury for my goals, activities, or future well-being, I experience **psychological pain**. Although psychological pain arises from the somatic state, it does not yet constitute emotion. Only after the interpreter assigns meaning and significance to that experience do emotions such as sadness, frustration, fear, or relief emerge.
@@ -213,8 +210,6 @@ The same layered architecture resolves another longstanding philosophical ambigu
 | Belief            | Stabilized cognitive construct        | “The tree fell.”                               |
 
 <p align="center">**Table 9-5. From Physical Sound to Auditory Experience**</p>
-
-
 
 **Table 9-5 resolves this ambiguity by separating the physical event from its conscious perception.** Acoustic pressure waves belong to the physical world. Auditory encoding belongs to the nervous system. Hearing belongs to conscious awareness. The table therefore distinguishes sensation, encoding, and perception as separate explanatory layers rather than treating them as a single phenomenon.
 
@@ -350,7 +345,7 @@ I can clarify the model by applying it to a familiar case: love. In this simplif
 
 The point is not that Romance, Lust, and Attachment name three unrelated emotions. The point is that the same general concept, Love, can generate different constructs when the agent interprets a felt state under different contextual and purposive constraints. A candlelight dinner, a sexually charged setting, and a caregiving scene do not merely decorate the emotion. They help specify what kind of love the agent constructs.
 
-<img src="../../assets/figures/chapter-09/figure-03.png" />  
+<img src="../../assets/figures/chapter-09/figure-03.png" />
 
 <p align="center">**Figure 9-3. Love Concept UML Class Diagram**</p>
 
@@ -424,17 +419,21 @@ The implementation defines an emotion concept with explicit constraint propertie
 
 Two parameters are accepted at runtime: context and arousal level.
 
-Input<img src="../../assets/figures/chapter-09/figure-07.png" />
+Input  
+<img src="../../assets/figures/chapter-09/figure-07.png" />
 
-Output<img src="../../assets/figures/chapter-09/figure-08.png" />
+Output  
+<img src="../../assets/figures/chapter-09/figure-08.png" />
 
-Input<img src="../../assets/figures/chapter-09/figure-09.png" />
+Input  
+<img src="../../assets/figures/chapter-09/figure-09.png" />
 
-Output<img src="../../assets/figures/chapter-09/figure-10.png" />
+Output  
+<img src="../../assets/figures/chapter-09/figure-10.png" />
 
 The run danger 7 passes because the instance satisfies both conditions: its context matches danger, and its arousal level exceeds the stipulated minimum of 6. The run safe 3 fails because the context does not match danger and the arousal level falls below 6. This demonstration does not claim that fear has a fixed psychological arousal threshold. It uses a stipulated threshold to show how a concept can govern admissible instances. Project 1 therefore demonstrates that identity depends on constraint satisfaction rather than resemblance or categorization. The structure accepts or rejects an instance according to whether the instance satisfies the concept’s admissibility conditions.
 
-<img src="../../assets/figures/chapter-09/figure-11.png" />  
+<img src="../../assets/figures/chapter-09/figure-11.png" />
 
 <p align="center">**Figure 9-4. Emotion Concept–Emotion Instance Validation UML Class Diagram**</p>
 
@@ -444,7 +443,7 @@ Project 1 uses this validation structure to show how a concept governs an instan
 
 <p align="center">**Figure 9-5. Fear Instance (Valid) UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-13.png" />  
+<img src="../../assets/figures/chapter-09/figure-13.png" />
 
 <p align="center">**Figure 9-6. Fear Instance (Invalid) UML Object Diagram**</p>
 
@@ -466,19 +465,19 @@ Output
 <img src="../../assets/figures/chapter-09/figure-17.png" />
 The contrast between these two outputs is the whole argument in executable form. Nothing in the underlying feeling changes. The contextualized arousal remains constant. The only change is whether interpretation has occurred. This demonstrates that feeling can function as sign-material without yet counting as an emotion.
 
-<img src="../../assets/figures/chapter-09/figure-18.png" />  
+<img src="../../assets/figures/chapter-09/figure-18.png" />
 
 <p align="center">**Figure 9-7. Feeling State–Emotional Meaning Bridge UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-19.png" />  
+<img src="../../assets/figures/chapter-09/figure-19.png" />
 
 <p align="center">**Figure 9-8. Feeling State (Before Interpretation) UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-20.png" />  
+<img src="../../assets/figures/chapter-09/figure-20.png" />
 
 <p align="center">**Figure 9-9. Emotional Meaning UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-21.png" />  
+<img src="../../assets/figures/chapter-09/figure-21.png" />
 
 <p align="center">**Figure 9-10. Feeling State (Before Interpretation) UML Object Diagram**</p>
 
@@ -504,32 +503,35 @@ The contrast between these outputs demonstrates the core argument in executable 
 
 <p align="center">**Figure 9-11. Feeling State UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-27.png" />  
+<img src="../../assets/figures/chapter-09/figure-27.png" />
 
 <p align="center">**Figure 9-12. Goal UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-28.png" />  
+<img src="../../assets/figures/chapter-09/figure-28.png" />
 
 <p align="center">**Figure 9-13. Emotional Interpretation UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-29.png" />  
+<img src="../../assets/figures/chapter-09/figure-29.png" />
 
 <p align="center">**Figure 9-14. Interpreter UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-30.png" />  
+<img src="../../assets/figures/chapter-09/figure-30.png" />
 
 <p align="center">**Figure 9-15. Feeling State UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-31.png" />  
+<img src="../../assets/figures/chapter-09/figure-31.png" />
+
+<p align="center">**Figure 9-16. Performance Goal UML Object Diagram**</p>
+
 <img src="../../assets/figures/chapter-09/figure-32.png" />
 
-<p align="center">**Figure 9-16. Performance Goal UML Object Diagram**</p>  
-<img src="../../assets/figures/chapter-09/figure-33.png" />  
-
 <p align="center">**Figure 9-17. Excitement Interpretation UML Object Diagram**</p>
-<img src="../../assets/figures/chapter-09/figure-34.png" />  
+
+<img src="../../assets/figures/chapter-09/figure-33.png" />
 
 <p align="center">**Figure 9-18. Avoidance Goal UML Object Diagram**</p>
+
+<img src="../../assets/figures/chapter-09/figure-34.png" />
 
 <p align="center">**Figure 9-19. Anxiety Interpretation UML Object Diagram**</p>
 
@@ -539,53 +541,54 @@ Figures 9-25 through 9-28 show the corresponding object-level execution. Figure 
 
 Project 4 therefore demonstrates phase separation. The external situation does not contain emotional meaning by itself. The situation first gives rise to feeling. The agent then interprets that feeling under a goal. Emotion appears only after that interpretive act.
 
-Input<img src="../../assets/figures/chapter-09/figure-35.png" />
+Input  
+<img src="../../assets/figures/chapter-09/figure-35.png" />
 
 Output  
 <img src="../../assets/figures/chapter-09/figure-36.png" />
 Input  
-<img src="../../assets/figures/chapter-09/figure-9-37.svg" />
+<img src="../../assets/figures/chapter-09/figure-37.png" />
 Output  
 <img src="../../assets/figures/chapter-09/figure-38.png" />
 The contrast between these outputs demonstrates the architectural point. The external event does not contain emotional meaning within itself. It first produces a feeling state. That feeling then becomes emotionally meaningful only when interpreted under a governing goal. This preserves the chapter’s distinction between causal sequence and semantic achievement.
 
-<img src="../../assets/figures/chapter-09/figure-39.png" />  
+<img src="../../assets/figures/chapter-09/figure-39.png" />
 
 <p align="center">**Figure 9-20. External Situation UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-26.png" />  
+<img src="../../assets/figures/chapter-09/figure-26.png" />
 
 <p align="center">**Figure 9-21. Feeling State UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-27.png" />  
+<img src="../../assets/figures/chapter-09/figure-27.png" />
 
 <p align="center">**Figure 9-22. Goal UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-40.png" />  
+<img src="../../assets/figures/chapter-09/figure-40.png" />
 
 <p align="center">**Figure 9-23. Emotional Meaning UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-41.png" />  
+<img src="../../assets/figures/chapter-09/figure-41.png" />
 
 <p align="center">**Figure 9-24. Emotion Pipeline UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-42.png" />  
+<img src="../../assets/figures/chapter-09/figure-42.png" />
 
 <p align="center">**Figure 9-25. External Situation UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-43.png" />  
+<img src="../../assets/figures/chapter-09/figure-43.png" />
 
 <p align="center">**Figure 9-26. Feeling State UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-44.png" />  
+<img src="../../assets/figures/chapter-09/figure-44.png" />
 
 <p align="center">**Figure 9-27. Safety Goal UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-45.png" />  
+<img src="../../assets/figures/chapter-09/figure-45.png" />
 
 <p align="center">**Figure 9-28. Fear Meaning UML Object Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-46.png" />  
+<img src="../../assets/figures/chapter-09/figure-46.png" />
 
 <p align="center">**Figure 9-29. Relief Meaning UML Object Diagram**</p>
 
@@ -605,31 +608,35 @@ Output
 <img src="../../assets/figures/chapter-09/figure-50.png" />
 The contrast between these outputs demonstrates the argument in executable form. The feeling remains constant. The governing goal remains constant. Only contextual knowledge changes. Yet the meaning shifts from fear to relief. This shows that emotional meaning is not contained in the bodily state itself but arises through interpretation and can therefore be revised when interpretation is corrected.
 
-<img src="../../assets/figures/chapter-09/figure-26.png" />  
+<img src="../../assets/figures/chapter-09/figure-26.png" />
 
 <p align="center">**Figure 9-30. Feeling State UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-27.png" />  
+<img src="../../assets/figures/chapter-09/figure-27.png" />
 
 <p align="center">**Figure 9-31. Goal UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-40.png" />  
+<img src="../../assets/figures/chapter-09/figure-40.png" />
 
 <p align="center">**Figure 9-32. Emotional Meaning UML Class Diagram**</p>
 
-<img src="../../assets/figures/chapter-09/figure-51.png" />  
+<img src="../../assets/figures/chapter-09/figure-51.png" />
+
+<p align="center">**Figure 9-33. Reinterpreter UML Class Diagram**</p>
+
 <img src="../../assets/figures/chapter-09/figure-52.png" />
 
-<p align="center">**Figure 9-33. Reinterpreter UML Class Diagram**</p>  
-<img src="../../assets/figures/chapter-09/figure-44.png" />  
-
 <p align="center">**Figure 9-34. Feeling State (Stable) UML Object Diagram**</p>
-<img src="../../assets/figures/chapter-09/figure-45.png" />  
+
+<img src="../../assets/figures/chapter-09/figure-44.png" />
 
 <p align="center">**Figure 9-35. Safety Goal (Stable) UML Object Diagram**</p>
-<img src="../../assets/figures/chapter-09/figure-46.png" />  
+
+<img src="../../assets/figures/chapter-09/figure-45.png" />
 
 <p align="center">**Figure 9-36. Emotion Meaning (Initial Fear) UML Object Diagram**</p>
+
+<img src="../../assets/figures/chapter-09/figure-46.png" />
 
 <p align="center">**Figure 9-37. Emotion Meaning (Revised Relief) UML Object Diagram**</p>
 
@@ -645,7 +652,7 @@ What remains is to present the system as a unified execution. The projects demon
 
 Figure 9-38 now integrates these constraints into a single, phase-ordered architecture.
 
-<img src="../../assets/figures/chapter-09/figure-53.png" />  
+<img src="../../assets/figures/chapter-09/figure-53.png" />
 
 <p align="center">**Figure 9-38. Metamorphosis of an Emotion**</p>
 
