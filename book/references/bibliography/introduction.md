@@ -26,13 +26,15 @@ Darwall, Stephen, Allan Gibbard, and Peter Railton. “Toward Fin de siècle Eth
 
 “Declaration of Independence: A Transcription.” National Archives. https://www.archives.gov/founding-docs/declaration-transcript.
 
-Edelman, Shimon. “Marr, David.” In *Encyclopedia of Cognitive Science*. Chichester, UK: Wiley, 2006. https://doi.org/10.1002/0470018860.s00143.
-
 Ekman, Paul. “An Argument for Basic Emotions.” *Cognition and Emotion* 6, nos. 3–4 (1992): 169–200. https://doi.org/10.1080/02699939208411068.
+
+Ginsborg, Hannah. “Normativity and Concepts.” In *The Oxford Handbook of Reasons and Normativity*, edited by Daniel Star. Oxford: Oxford University Press, 2018. https://doi.org/10.1093/oxfordhb/9780199657889.013.43.
 
 Grisez, Germain G. “The First Principle of Practical Reason: A Commentary on the *Summa theologiae*, 1–2, Question 94, Article 2.” *American Journal of Jurisprudence* 10, no. 1 (1965): 168–201. https://doi.org/10.1093/ajj/10.1.168.
 
-Gupta, Anil. “Definitions.” In *The Stanford Encyclopedia of Philosophy*, Fall 2021 ed., edited by Edward N. Zalta. https://plato.stanford.edu/entries/definitions/.
+Gupta, Anil. “Definitions.” In *The Stanford Encyclopedia of Philosophy*, Fall 2021 ed., edited by Edward N. Zalta. https://plato.stanford.edu/archives/fall2021/entries/definitions/.
+
+Hamowy, Ronald. “Jefferson and the Scottish Enlightenment: A Critique of Garry Wills’s *Inventing America: Jefferson’s Declaration of Independence*.” *William and Mary Quarterly* 36, no. 4 (1979): 503ff. https://doi.org/10.2307/1925181.
 
 Hohfeld, Wesley Newcomb. “Some Fundamental Legal Conceptions as Applied in Judicial Reasoning.” *Yale Law Journal* 23, no. 1 (1913): 16–59. https://doi.org/10.2307/785533.
 
@@ -50,22 +52,26 @@ Marr, David. *Vision: A Computational Investigation into the Human Representatio
 
 Mulligan, Robert F. “Epistemology According to Rand and Hayek.” *Journal of Ayn Rand Studies* 23, nos. 1–2 (2023): 123–53. https://doi.org/10.5325/jaynrandstud.23.1-2.0123.
 
-Murphy, Mark C. “The Natural Law Tradition in Ethics.” In *The Stanford Encyclopedia of Philosophy*, Summer 2019 ed., edited by Edward N. Zalta. https://plato.stanford.edu/entries/natural-law-ethics/.
+Murphy, Mark C. “The Natural Law Tradition in Ethics.” In *The Stanford Encyclopedia of Philosophy*, Summer 2019 ed., edited by Edward N. Zalta. https://plato.stanford.edu/archives/sum2019/entries/natural-law-ethics/.
 
 Panksepp, Jaak. “Affective Consciousness: Core Emotional Feelings in Animals and Humans.” *Consciousness and Cognition* 14, no. 1 (2005): 30–80. https://doi.org/10.1016/j.concog.2004.10.004.
 
 Picard, Rosalind W. “Affective Computing: Challenges.” *International Journal of Human-Computer Studies* 59, nos. 1–2 (2003): 55–64. https://doi.org/10.1016/S1071-5819(03)00052-1.
 
-Rohlf, Michael. “Immanuel Kant.” In *The Stanford Encyclopedia of Philosophy*, Fall 2023 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/entries/kant/.
+Rohlf, Michael. “Immanuel Kant.” In *The Stanford Encyclopedia of Philosophy*, Fall 2023 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/archives/fall2023/entries/kant/.
 
 Russell, James A. “Core Affect and the Psychological Construction of Emotion.” *Psychological Review* 110, no. 1 (2003): 145–72. https://doi.org/10.1037/0033-295X.110.1.145.
 
-Scarantino, Andrea, and Ronald de Sousa. “Emotion.” In *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/entries/emotion/.
+Scarantino, Andrea, and Ronald de Sousa. “Emotion.” In *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/archives/spr2024/entries/emotion/.
 
 Scherer, Klaus R. “What Are Emotions? And How Can They Be Measured?” *Social Science Information* 44, no. 4 (2005): 695–729. https://doi.org/10.1177/0539018405058216.
 
-Simmons, A. John. “Locke’s Political Philosophy.” In *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/entries/locke-political/.
-
 Snyder, David C. “Locke on Natural Law and Property Rights.” *Canadian Journal of Philosophy* 16, no. 4 (1986): 723–50. https://doi.org/10.1080/00455091.1986.10717145.
+
+Tuckness, Alex. “Locke’s Political Philosophy.” In *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., edited by Edward N. Zalta and Uri Nodelman. https://plato.stanford.edu/archives/spr2024/entries/locke-political/.
+
+Vaina, Lucia M. “Marr, David.” In *Encyclopedia of Cognitive Science*. Chichester, UK: Wiley, 2006. https://doi.org/10.1002/0470018860.s00456.
+
+Wills, Garry. *Inventing America: Jefferson’s Declaration of Independence*. Garden City, NY: Doubleday, 1978.
 
 Zlatev, Jordan. “The Semiotic Hierarchy: Life, Consciousness, Signs and Language.” *Cognitive Semiotics* 4, suppl. (2009): 169–200. https://doi.org/10.1515/cogsem.2009.4.spring2009.169.

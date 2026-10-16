@@ -4,31 +4,31 @@
 
 <a id="note-1"></a>
 
-1. Cf. William James, “What Is an Emotion?,” *Mind* 9, no. 34 (1884): 188–205, https://doi.org/10.1093/mind/os-IX.34.188.
+1. Cf. William James, “What Is an Emotion?,” *Mind* 9, no. 34 (1884): 188–205, at 189–90, https://doi.org/10.1093/mind/os-IX.34.188.
 
 <a id="note-2"></a>
 
-2. Klaus R. Scherer, “What Are Emotions? And How Can They Be Measured?,” *Social Science Information* 44, no. 4 (2005): 695–729, https://doi.org/10.1177/0539018405058216.
+2. Klaus R. Scherer, “What Are Emotions? And How Can They Be Measured?,” *Social Science Information* 44, no. 4 (2005): 695–729, at 695, https://doi.org/10.1177/0539018405058216.
 
 <a id="note-3"></a>
 
-3. Andrea Scarantino and Ronald de Sousa, “Emotion,” in *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., ed. Edward N. Zalta and Uri Nodelman, https://plato.stanford.edu/entries/emotion/.
+3. Andrea Scarantino and Ronald de Sousa, “Emotion,” in *The Stanford Encyclopedia of Philosophy*, Spring 2024 ed., ed. Edward N. Zalta and Uri Nodelman, https://plato.stanford.edu/archives/spr2024/entries/emotion/.
 
 <a id="note-4"></a>
 
-4. For the opposing view, developed from Wittgenstein’s notion of family resemblance, that categories need no common defining features, see Eleanor Rosch and Carolyn B. Mervis, “Family Resemblances: Studies in the Internal Structure of Categories,” *Cognitive Psychology* 7, no. 4 (1975): 573–605, https://doi.org/10.1016/0010-0285(75)90024-9.
+4. For the opposing view, developed from Wittgenstein’s notion of family resemblance, that categories need no common defining features, see Eleanor Rosch and Carolyn B. Mervis, “Family Resemblances: Studies in the Internal Structure of Categories,” *Cognitive Psychology* 7, no. 4 (1975): 573–605, at 574–75, https://doi.org/10.1016/0010-0285(75)90024-9.
 
 <a id="note-5"></a>
 
-5. Jerome C. Wakefield, “The Concept of Mental Disorder: On the Boundary Between Biological Facts and Social Values,” *American Psychologist* 47, no. 3 (1992): 373–88, https://doi.org/10.1037/0003-066X.47.3.373.
+5. Jerome C. Wakefield, “The Concept of Mental Disorder: On the Boundary Between Biological Facts and Social Values,” *American Psychologist* 47, no. 3 (1992): 373–88, at 373, https://doi.org/10.1037/0003-066X.47.3.373.
 
 <a id="note-6"></a>
 
-6. Terry A. Maroney, “Law and Emotion: A Proposed Taxonomy of an Emerging Field,” *Law and Human Behavior* 30, no. 2 (2006): 119–42, https://doi.org/10.1007/s10979-006-9029-9.
+6. Terry A. Maroney, “Law and Emotion: A Proposed Taxonomy of an Emerging Field,” *Law and Human Behavior* 30, no. 2 (2006): 119–42, at 119, https://doi.org/10.1007/s10979-006-9029-9.
 
 <a id="note-7"></a>
 
-7. Rosalind W. Picard, “Affective Computing: Challenges,” *International Journal of Human-Computer Studies* 59, nos. 1–2 (2003): 55–64, https://doi.org/10.1016/S1071-5819(03)00052-1; Rafael A. Calvo and Sidney D’Mello, “Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications,” *IEEE Transactions on Affective Computing* 1, no. 1 (2010): 18–37, https://doi.org/10.1109/T-AFFC.2010.1.
+7. Rafael A. Calvo and Sidney D’Mello, “Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications,” *IEEE Transactions on Affective Computing* 1, no. 1 (2010): 18–37, at 18, https://doi.org/10.1109/T-AFFC.2010.1; Rosalind W. Picard, “Affective Computing: Challenges,” *International Journal of Human-Computer Studies* 59, nos. 1–2 (2003): 55–64, at 55, https://doi.org/10.1016/S1071-5819(03)00052-1.
 
 <a id="note-8"></a>
 
@@ -44,15 +44,15 @@
 
 <a id="note-11"></a>
 
-11. Lisa Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix M. Martinez, and Seth D. Pollak, “Emotional Expressions Reconsidered: Challenges to Inferring Emotion from Human Facial Movements,” *Psychological Science in the Public Interest* 20, no. 1 (2019): 1–68, https://doi.org/10.1177/1529100619832930.
+11. Lisa Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix M. Martinez, and Seth D. Pollak, “Emotional Expressions Reconsidered: Challenges to Inferring Emotion from Human Facial Movements,” *Psychological Science in the Public Interest* 20, no. 1 (2019): 1–68, at 1, https://doi.org/10.1177/1529100619832930.
 
 <a id="note-12"></a>
 
-12. Scherer, “What Are Emotions?,” 695–729.
+12. Scherer, “What Are Emotions?,” 695.
 
 <a id="note-13"></a>
 
-13. Anil Gupta, “Definitions,” in *The Stanford Encyclopedia of Philosophy*, Fall 2021 ed., ed. Edward N. Zalta, https://plato.stanford.edu/entries/definitions/.
+13. Anil Gupta, “Definitions,” in *The Stanford Encyclopedia of Philosophy*, Fall 2021 ed., ed. Edward N. Zalta, https://plato.stanford.edu/archives/fall2021/entries/definitions/.
 
 <a id="note-14"></a>
 
@@ -60,8 +60,8 @@
 
 <a id="note-15"></a>
 
-15. Lisa Feldman Barrett, “The Theory of Constructed Emotion: An Active Inference Account of Interoception and Categorization,” *Social Cognitive and Affective Neuroscience* 12, no. 1 (2017): 1–23, https://doi.org/10.1093/scan/nsw154.
+15. Lisa Feldman Barrett, “The Theory of Constructed Emotion: An Active Inference Account of Interoception and Categorization,” *Social Cognitive and Affective Neuroscience* 12, no. 1 (2017): 1–23, at 1, https://doi.org/10.1093/scan/nsw154.
 
 <a id="note-16"></a>
 
-16. Scarantino and de Sousa, “Emotion”; Scherer, “What Are Emotions?”
+16. Scarantino and de Sousa, “Emotion”; Scherer, “What Are Emotions?,” 697.
