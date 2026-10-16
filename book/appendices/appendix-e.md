@@ -32,13 +32,13 @@ Layer 1: The Concept Object
 
 <img src="../../assets/figures/appendix-e/figure-01.png" />
 
-<p align="center">**Source figure 1**</p>
+<p align="center"><ins>Source figure 1</ins></p>
 
 Layer 2: The Instance Objects
 
 <img src="../../assets/figures/appendix-e/figure-02.png" />
 
-<p align="center">**Source figure 2**</p>
+<p align="center"><ins>Source figure 2</ins></p>
 
 | You can paste both code blocks together. Use Shift + Enter to add lines without running the code too early. Press Enter on a blank line to execute the full block. |
 | --- |
@@ -58,7 +58,7 @@ At this level, Chrome shows the object's own properties:
 
 <img src="../../assets/figures/appendix-e/figure-03.png" />
 
-<p align="center">**Source figure 3**</p>
+<p align="center"><ins>Source figure 3</ins></p>
 
 These are the instance's own properties: its particular descriptors and contextual values. This is Layer 2: Instance-Level Realization. The object has a type and a sides value, both assigned at the instance level. They do not define what a triangle is.
 
@@ -72,7 +72,7 @@ At this level, Chrome shows the inherited structure:
 
 <img src="../../assets/figures/appendix-e/figure-04.png" />
 
-<p align="center">**Source figure 4**</p>
+<p align="center"><ins>Source figure 4</ins></p>
 
 This is Layer 1: Concept-Level Constraint. Here you observe:
 
@@ -94,7 +94,7 @@ At this level, Chrome shows JavaScript's runtime infrastructure:
 
 <img src="../../assets/figures/appendix-e/figure-05.png" />
 
-<p align="center">**Source figure 5**</p>
+<p align="center"><ins>Source figure 5</ins></p>
 
 This is Layer 0: Runtime Infrastructure Constraint. You have reached Object.prototype, the terminus of JavaScript's ordinary prototype chain. The final [[Prototype]] is null. Delegation has a boundary. Property lookup has an end.
 
@@ -130,7 +130,7 @@ Prototype theory can describe variation among instances, but this operation show
 | --- |
 <img src="../../assets/figures/appendix-e/figure-07.png" />
 
-<p align="center">**Source figure 7**</p>
+<p align="center"><ins>Source figure 7</ins></p>
 
 ### B. Parametric Revision: Layer 1 Change
 
@@ -154,7 +154,7 @@ Remove the evaluative rule from the prototype.
 
 <img src="../../assets/figures/appendix-e/figure-08.png" />
 
-<p align="center">**Source figure 8**</p>
+<p align="center"><ins>Source figure 8</ins></p>
 
 What this shows:
 
@@ -178,7 +178,7 @@ The prototype chain visible in DevTools renders the layered ontology argued in C
 | 1 | Concept-Level Constraint | Encodes identity; fixes admissibility conditions and evaluative rule | Concept prototype object |
 | 2 | Instance-Level Realization | Contextual values; particular assignments; graded variability | equilateral, scalene objects |
 
-<p align="center">**Table E-1. Three-Layer Ontology: Runtime Infrastructure, Concept-Level Constraint, and Instance-Level Realization**</p>
+<p align="center"><ins>Table E-1. Three-Layer Ontology: Runtime Infrastructure, Concept-Level Constraint, and Instance-Level Realization</ins></p>
 
 ## Philosophical Implications
 

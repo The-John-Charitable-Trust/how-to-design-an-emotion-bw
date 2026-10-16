@@ -18,8 +18,7 @@ In Project 1, I represent the concept Fish as a class with invariant admissibili
 
 <img src="../../assets/figures/appendix-c/figure-01.png" />
 
-<p align="center">**Figure C-1. Fish UML Class Diagram**</p>
-
+<p align="center"><ins>Figure C-1. Fish UML Class Diagram</ins></p>
 
 Figure C-1 defines the admissibility conditions that any instance must satisfy. No goals, parameters, or contextual modifiers appear at this level.
 
@@ -27,32 +26,29 @@ The valid and invalid candidates appear in separate object diagrams. Figure C-2 
 
 <img src="../../assets/figures/appendix-c/figure-02.png" />
 
-<p align="center">**Figure C-2. Goldfish UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-2. Goldfish UML Object Diagram</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-03.png" />
 
-<p align="center">**Figure C-3. Salmon UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-3. Salmon UML Object Diagram</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-04.png" />
 
-<p align="center">**Figure C-4. Rock UML Object Diagram (Invalid Fish)**</p>
-
+<p align="center"><ins>Figure C-4. Rock UML Object Diagram (Invalid Fish)</ins></p>
 
 In Project 1, the code evaluates a specific candidate passed as a command-line argument. This makes the admissibility test explicit. The system does not switch between an abstract valid mode and invalid mode. It evaluates whether a given candidate satisfies the admissibility conditions of Fish. The README for Project 1 provides the canonical run commands and expected outputs. When you execute the C# code with the following commands:
 
 <img src="../../assets/figures/appendix-c/figure-05.png" />
 
-<p align="center">**Project 1 Run Commands**</p>
+<p align="center"><ins>Project 1 Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-06.png" />
 
-<p align="center">**Project 1 Valid Output**</p>
+<p align="center"><ins>Project 1 Valid Output</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-07.png" />
 
-<p align="center">**Project 1 invalid Output**</p>
+<p align="center"><ins>Project 1 invalid Output</ins></p>
 
 You get a valid response for the first two object diagrams; for example, when you pass goldfish as an input parameter:
 
@@ -66,8 +62,7 @@ In Project 2, the concept Fish remains unchanged. The system applies its admissi
 
 <img src="../../assets/figures/appendix-c/figure-08.png" />
 
-<p align="center">**Figure C-5. Shared Structure Fish UML Class Diagram**</p>
-
+<p align="center"><ins>Figure C-5. Shared Structure Fish UML Class Diagram</ins></p>
 
 Figure C-5 defines the shared structure that all instances must satisfy. The admissibility layer has already done its work. The focus now shifts to how admitted instances differ within that structure.
 
@@ -75,13 +70,11 @@ The object diagrams show distinct instantiations of the same concept. Figure C-6
 
 <img src="../../assets/figures/appendix-c/figure-09.png" />
 
-<p align="center">**Figure C-6. Goldfish UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-6. Goldfish UML Object Diagram</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-10.png" />
 
-<p align="center">**Figure C-7. Salmon UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-7. Salmon UML Object Diagram</ins></p>
 
 Both instances satisfy the identity conditions of Fish established in Project 1. Their difference lies entirely in their parameter values. These parameters do not redefine the concept. They specify the realization of the concept in particular instances.
 
@@ -89,19 +82,19 @@ In Project 2, the code creates fish instances with different parameter assignmen
 
 <img src="../../assets/figures/appendix-c/figure-11.png" />
 
-<p align="center">**Project 2 Valid Run Commands**</p>
+<p align="center"><ins>Project 2 Valid Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-12.png" />
 
-<p align="center">**Project 2 Valid Output**</p>
+<p align="center"><ins>Project 2 Valid Output</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-13.png" />
 
-<p align="center">**Project 2 Invalid Run Commands**</p>
+<p align="center"><ins>Project 2 Invalid Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-14.png" />
 
-<p align="center">**Project 2 Invalid Output**</p>
+<p align="center"><ins>Project 2 Invalid Output</ins></p>
 
 This behavior demonstrates that instantiation assigns determinate values within a stable constraint structure. Variation occurs at the level of parameters such as species and type. It does not alter the concept.
 
@@ -113,8 +106,7 @@ The concept Fish remains unchanged. The instantiated objects remain unchanged. T
 
 <img src="../../assets/figures/appendix-c/figure-15.png" />
 
-<p align="center">**Figure C-8. Goal Layer Selection Structure UML Class Diagram**</p>
-
+<p align="center"><ins>Figure C-8. Goal Layer Selection Structure UML Class Diagram</ins></p>
 
 Figure C-8 shows the goal layer at the class level. The interface IGoal defines a selection function over Fish instances. PetGoal selects instances where Type = PET. DinnerGoal selects instances where Type = FOOD. These goals do not modify the instances. They evaluate them.
 
@@ -122,31 +114,29 @@ The object diagrams show how the same set of instances receives different select
 
 <img src="../../assets/figures/appendix-c/figure-16.png" />
 
-<p align="center">**Figure C-9. Selection Under a Pet Goal**</p>
-
+<p align="center"><ins>Figure C-9. Selection Under a Pet Goal</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-17.png" />
 
-<p align="center">**Figure C-10. Selection Under a Dinner Goal**</p>
-
+<p align="center"><ins>Figure C-10. Selection Under a Dinner Goal</ins></p>
 
 In Project 3, the code applies a goal to a fixed set of instances. The goal determines which instances satisfy its selection constraint, but it does not alter the instances themselves or the concept they instantiate. The README for Project 3 provides the canonical run commands and expected outputs.
 
 <img src="../../assets/figures/appendix-c/figure-18.png" />
 
-<p align="center">**Project 3 Dinner Run Commands**</p>
+<p align="center"><ins>Project 3 Dinner Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-19.png" />
 
-<p align="center">**Project 3 Dinner Output**</p>
+<p align="center"><ins>Project 3 Dinner Output</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-20.png" />
 
-<p align="center">**Project 3 Pet Run Commands**</p>
+<p align="center"><ins>Project 3 Pet Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-21.png" />
 
-<p align="center">**Project 3 Pet Output**</p>
+<p align="center"><ins>Project 3 Pet Output</ins></p>
 
 This behavior demonstrates that goals operate downstream of identity conditions and instantiation. Goals regulate relevance by selecting among admissible instances. They do not redefine what a fish is. They do not reassign the values of the instance.
 
@@ -158,8 +148,7 @@ The system no longer applies a goal directly as a filter over instances. Instead
 
 <img src="../../assets/figures/appendix-c/figure-22.png" />
 
-<p align="center">**Figure C-11. Runtime Construction Layer UML Class Diagram**</p>
-
+<p align="center"><ins>Figure C-11. Runtime Construction Layer UML Class Diagram</ins></p>
 
 The ConceptSpecification class encapsulates a constraint function. The RuntimeConceptBuilder constructs this function based on the goal. For a pet goal, the constraint evaluates whether Type == PET. For a dinner goal, the constraint evaluates whether Type == FOOD. Each invocation of the builder produces a determinate constraint structure tied to the active purpose.
 
@@ -167,31 +156,29 @@ The object diagrams show the constructed constraint specifications.
 
 <img src="../../assets/figures/appendix-c/figure-23.png" />
 
-<p align="center">**Figure C-12. Runtime Specification for Pet Goal**</p>
-
+<p align="center"><ins>Figure C-12. Runtime Specification for Pet Goal</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-24.png" />
 
-<p align="center">**Figure C-13. Runtime Specification for Dinner Goal**</p>
-
+<p align="center"><ins>Figure C-13. Runtime Specification for Dinner Goal</ins></p>
 
 These constraints are not predefined classes. The system constructs them at runtime and applies them to the available instances. At this layer, the constructed constraint determines whether the instance qualifies. The code builds a ConceptSpecification based on the input goal and applies its constraint to the set of Fish instances. It performs two steps: it constructs the constraint, then it evaluates instances against that constraint. The README for Project 4 provides the canonical run commands and expected outputs.
 
 <img src="../../assets/figures/appendix-c/figure-25.png" />
 
-<p align="center">**Project 4 Dinner Run Commands**</p>
+<p align="center"><ins>Project 4 Dinner Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-26.png" />
 
-<p align="center">**Project 4 Dinner Output**</p>
+<p align="center"><ins>Project 4 Dinner Output</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-27.png" />
 
-<p align="center">**Project 4 Pet Run Commands**</p>
+<p align="center"><ins>Project 4 Pet Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-21.png" />
 
-<p align="center">**Project 4 Pet Output**</p>
+<p align="center"><ins>Project 4 Pet Output</ins></p>
 
 This behavior demonstrates that runtime flexibility does not require conceptual drift. The system may construct a use-specific constraint structure, but the structure remains determinate for each execution. The active goal changes the constraint specification. It does not erase the need for constraint.
 
@@ -203,8 +190,7 @@ In Project 5, the object Car remains constant across all evaluations. What varie
 
 <img src="../../assets/figures/appendix-c/figure-28.png" />
 
-<p align="center">**Figure C-14. Goal Layer Selection Structure for Car UML Class Diagram**</p>
-
+<p align="center"><ins>Figure C-14. Goal Layer Selection Structure for Car UML Class Diagram</ins></p>
 
 The Car class defines the object's identity and properties. The goal interface defines a selection function. Each goal applies a different constraint. TransportGoal selects all cars. StatusGoal selects cars above a value threshold. ShelterGoal selects cars that can function as temporary shelter.
 
@@ -212,28 +198,25 @@ The UML object diagrams show how the same objects participate differently under 
 
 <img src="../../assets/figures/appendix-c/figure-29.png" />
 
-<p align="center">**Figure C-15. Transport Goal UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-15. Transport Goal UML Object Diagram</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-30.png" />
 
-<p align="center">**Figure C-16. Status Goal UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-16. Status Goal UML Object Diagram</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-31.png" />
 
-<p align="center">**Figure C-17. Shelter Goal UML Object Diagram**</p>
-
+<p align="center"><ins>Figure C-17. Shelter Goal UML Object Diagram</ins></p>
 
 In Project 5, the code applies multiple goals sequentially to the same set of objects. Each goal evaluates the objects according to its own constraint. The objects do not change. Only their participation in the selected set changes. The README for Project 5 provides the canonical run command and expected output.
 
 <img src="../../assets/figures/appendix-c/figure-32.png" />
 
-<p align="center">**Project 5 Run Commands**</p>
+<p align="center"><ins>Project 5 Run Commands</ins></p>
 
 <img src="../../assets/figures/appendix-c/figure-33.png" />
 
-<p align="center">**Project 5 Run Output**</p>
+<p align="center"><ins>Project 5 Run Output</ins></p>
 
 This behavior demonstrates that a single object can satisfy multiple goal-bound constraint structures. Its identity remains stable across all evaluations. What changes is the role the object plays under different goals.
 
