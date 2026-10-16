@@ -8,7 +8,7 @@ I select candidates according to their architectural relevance rather than their
 
 I. Candidates Explicitly Addressing Meaning, Evaluation, or Construction
 
-1. Appraisal Theories (Richard S. Lazarus, 1922–2002; Klaus R. Scherer, 1943– ; Ira J. Roseman, 1952– )
+1. Appraisal Theories (Richard S. Lazarus, 1922–2002; Klaus R. Scherer, 1943–; Ira J. Roseman, 1952–)
 
 Appraisal theories explicitly treat emotions as about something. They explain emotion through the evaluation of relevance, consequence, action possibility, and personal significance. Unlike many biological or behavioral accounts, appraisal theories recognize that emotions involve judgments, whether implicit or explicit, about situations in relation to an organism's goals.<sup><a href="../references/notes/appendix-f.md#note-1">1</a></sup>
 
@@ -18,13 +18,15 @@ For that reason, appraisal theories become unavoidable candidates under any fram
 
 Scherer's Component Process Model (CPM) provides one of contemporary psychology's most architecturally explicit accounts of emotion. CPM organizes an emotional episode into an explicit temporal progression in which evaluation gives rise to physiological change, physiological change gives rise to feeling, and these processes subsequently coordinate expression and action readiness. This explicit phase separation makes CPM especially valuable for the present trade study because it allows me to evaluate whether each phase preserves its own explanatory role while remaining distinct from the others.<sup><a href="../references/notes/appendix-f.md#note-2">2</a></sup> <sup><a href="../references/notes/appendix-f.md#note-3">3</a></sup>
 
-3. Theory of Constructed Emotion (TCE) / Conceptual Act Theory (CAT) (Lisa Feldman Barrett, 1963– )
+3. Theory of Constructed Emotion (TCE) / Conceptual Act Theory (CAT) (Lisa Feldman Barrett, 1963–)
 
 Barrett's Theory of Constructed Emotion, also known as Conceptual Act Theory, offers the most explicit contemporary attempt to integrate affect, concepts, categorization, prediction, and social learning into a unified constructionist account of emotion.<sup><a href="../references/notes/appendix-f.md#note-4">4</a></sup>
 
 TCE directly addresses concept, categorization, and construction, which places it at the center of this project's concerns. I therefore treat it as a necessary point of confrontation. It helps me preserve what constructivism gets right about variability, learning, and contextual interpretation, while also testing whether construction can preserve the formal difference between concept and instance, identifier and referent, interpreter and process.<sup><a href="../references/notes/appendix-f.md#note-5">5</a></sup>
 
-Beyond Barrett's Theory of Constructed Emotion, I include psychological constructionism as a broader family of theories represented by Russell, Barrett, and Frijda. These approaches explain emotions as products of more general psychological operations, including affect, attention, memory, conceptualization, categorization, and perception, rather than as biologically discrete natural kinds.<sup><a href="../references/notes/appendix-f.md#note-6">6</a></sup>
+4. Psychological Constructionism (James A. Russell, 1947–; Lisa Feldman Barrett, 1963–)
+
+Beyond Barrett's Theory of Constructed Emotion, I include psychological constructionism as a broader family of theories represented by Russell and Barrett. These approaches explain emotions as products of more general psychological operations, including affect, attention, memory, conceptualization, categorization, and perception, rather than as biologically discrete natural kinds.<sup><a href="../references/notes/appendix-f.md#note-6">6</a></sup>
 
 This broader family allows me to test whether construction preserves stable identity across variation rather than becoming arbitrary. In other words, can a constructivist theory explain how emotions differ from one another without treating every emotional episode as a separate invention? That question matters because a constructivist account must preserve identity across variation: fear must remain fear across different situations, bodies, histories, and contexts, even though no single bodily pattern or facial display defines it.<sup><a href="../references/notes/appendix-f.md#note-7">7</a></sup>
 
@@ -44,7 +46,7 @@ I include these accounts because they extend that framework to meaning itself. T
 
 III. Candidates Explaining Emotion Through Function, Regulation, or Behavior
 
-7. Functionalist / Evolutionary Emotion Theories (Charles Darwin, 1809–1882; Nico H. Frijda, 1927–2015; Randolph M. Nesse, 1948– )
+7. Functionalist / Evolutionary Emotion Theories (Charles Darwin, 1809–1882; Nico H. Frijda, 1927–2015; Randolph M. Nesse, 1948–)
 
 Functionalist and evolutionary theories explain affective mechanisms in terms of the adaptive problems they evolved to solve.<sup><a href="../references/notes/appendix-f.md#note-10">10</a></sup> On this view, fear supports threat avoidance, anger supports confrontation or boundary defense, disgust supports contamination avoidance, and attachment supports bonding and care. These accounts become important because many theorists treat adaptive function as sufficient to explain what an emotion is.
 
@@ -58,13 +60,13 @@ Regulatory models explain how organisms maintain, redirect, or modify their phys
 
 IV. Non-Qualifying Candidates and Boundary Conditions
 
-9. Basic Emotion Theory (BET) (Silvan S. Tomkins, 1911–1991; Paul Ekman, 1934–2023; Carroll E. Izard, 1923–2017)
+9. Basic Emotion Theory (BET) (Silvan S. Tomkins, 1911–1991; Paul Ekman, 1934–2025; Carroll E. Izard, 1923–2017)
 
 Basic Emotion Theory (BET) provides the strongest representative of natural-kind realism about emotion. BET proposes that emotions such as fear, anger, sadness, happiness, disgust, and surprise correspond to biologically discrete categories with characteristic expressions and universal signatures.<sup><a href="../references/notes/appendix-f.md#note-12">12</a></sup>
 
 I retain BET as a limiting case because it states its ontological commitments with unusual clarity. The trade study therefore tests whether biologically discrete kinds can satisfy the governing architectural criteria for emotional meaning. If they can, biological identity alone suffices to ground emotion. If they cannot, then the architecture requires additional explanatory elements beyond biological kinds, including interpretation, agency, and semantic constraint.
 
-10. Dimensional Models (James A. Russell, 1947–; Lisa Feldman Barrett, 1963– )
+10. Dimensional Models (James A. Russell, 1947–; Lisa Feldman Barrett, 1963–)
 
 Dimensional models organize affective states along a small number of dimensions, most commonly valence and arousal. They provide useful tools for representing the body's physiological registration of affective intensity and hedonic tone, while also organizing reports of conscious feeling within the same dimensional space.<sup><a href="../references/notes/appendix-f.md#note-13">13</a></sup>
 

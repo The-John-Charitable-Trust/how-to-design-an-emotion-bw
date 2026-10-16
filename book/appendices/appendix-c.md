@@ -1,8 +1,8 @@
-# Appendix C: Reconstructing Goal-Based Concepts
+# Appendix C: Are Concepts Just Goals?
 
-## A Constraint Analysis of Feldman Barrett's Theory of Concepts
+## Putting Constructivist Concept Theory to the Test
 
-Barrett argues that concepts can adapt to changing purposes. She describes goal-based concepts as highly flexible and adaptable to the situation.<sup><a href="../references/notes/appendix-c.md#note-1">1</a></sup> She immediately ties that flexibility to goal variation, adding that concepts are malleable and context-dependent because goals can change with the situation. She illustrates the point with the fish example: when someone asks what kind of fish they would like, the active purpose constrains the answer. One may answer "goldfish" under one purpose and reject "poached salmon" under another. She then generalizes the same mechanism with an artifact example: a single car can enter different concepts depending on the active purpose. In different contexts, a car may function as transportation, a status symbol, a bed, a murder weapon, or an artificial reef.
+Lisa Feldman Barrett (b. 1963) argues that concepts can adapt to changing purposes. She describes goal-based concepts as highly flexible and adaptable to the situation.<sup><a href="../references/notes/appendix-c.md#note-1">1</a></sup> She immediately ties that flexibility to goal variation, adding that concepts are malleable and context-dependent because goals can change with the situation. She illustrates the point with the fish example: when someone asks what kind of fish they would like, the active purpose constrains the answer. When the purpose is buying a pet, one may answer "goldfish" but not "poached salmon." She then generalizes the same mechanism with an artifact example: a single car can enter different concepts depending on the active purpose. In different contexts, a car may function as transportation, a status symbol, a bed, a murder weapon, or an artificial reef.
 
 I agree that Barrett identifies a real phenomenon: goals regulate conceptual use. Research on ad hoc categories and situated conceptualization also supports the idea that agents form or activate categories relative to practical purposes.<sup><a href="../references/notes/appendix-c.md#note-2">2</a></sup> But that phenomenon does not establish that identity conditions are fluid. It supports a more precise interpretation: goal-indexed regulation can operate over a stable constraint structure.
 
@@ -46,27 +46,17 @@ In Project 1, the code evaluates a specific candidate passed as a command-line a
 
 <p align="center">**Project 1 Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******1****** Run Commands***
-
 <img src="../../assets/figures/appendix-c/figure-06.png" />
 
 <p align="center">**Project 1 Valid Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******1****** Valid Output***
 
 <img src="../../assets/figures/appendix-c/figure-07.png" />
 
 <p align="center">**Project 1 invalid Output**</p>
 
-*  
-*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******1****** invalid Output***
-
 You get a valid response for the first two object diagrams; for example, when you pass goldfish as an input parameter:
 
-However, you get an  invalid response when you pass rock as the input parameter:
+However, you get an invalid response when you pass rock as the input parameter:
 
 This behavior demonstrates that identity conditions operate upstream of all other processes. They constrain the space of possible instances before any goal-based filtering or contextual interpretation occurs. Project 1 therefore establishes the first architectural claim: identity conditions define admissibility and constrain what can count as an instance in the first place.
 
@@ -101,29 +91,17 @@ In Project 2, the code creates fish instances with different parameter assignmen
 
 <p align="center">**Project 2 Valid Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******2****** Valid Run Commands***
-
 <img src="../../assets/figures/appendix-c/figure-12.png" />
 
 <p align="center">**Project 2 Valid Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******2****** Valid Output***
 
 <img src="../../assets/figures/appendix-c/figure-13.png" />
 
 <p align="center">**Project 2 Invalid Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******2****** Invalid Run Commands***
-
 <img src="../../assets/figures/appendix-c/figure-14.png" />
 
 <p align="center">**Project 2 Invalid Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******2****** Invalid Output***
 
 This behavior demonstrates that instantiation assigns determinate values within a stable constraint structure. Variation occurs at the level of parameters such as species and type. It does not alter the concept.
 
@@ -149,7 +127,7 @@ The object diagrams show how the same set of instances receives different select
 
 <img src="../../assets/figures/appendix-c/figure-17.png" />
 
-<p align="center">**Figure C-9. Selection Under a Dinner Goal**</p>
+<p align="center">**Figure C-10. Selection Under a Dinner Goal**</p>
 
 
 In Project 3, the code applies a goal to a fixed set of instances. The goal determines which instances satisfy its selection constraint, but it does not alter the instances themselves or the concept they instantiate. The README for Project 3 provides the canonical run commands and expected outputs.
@@ -158,29 +136,17 @@ In Project 3, the code applies a goal to a fixed set of instances. The goal dete
 
 <p align="center">**Project 3 Dinner Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******3****** Dinner Run Commands***
-
 <img src="../../assets/figures/appendix-c/figure-19.png" />
 
 <p align="center">**Project 3 Dinner Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******3****** Dinner Output***
 
 <img src="../../assets/figures/appendix-c/figure-20.png" />
 
 <p align="center">**Project 3 Pet Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project 3 ******Pet  Run****** Commands***
-
 <img src="../../assets/figures/appendix-c/figure-21.png" />
 
 <p align="center">**Project 3 Pet Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project 3 Pet Output***
 
 This behavior demonstrates that goals operate downstream of identity conditions and instantiation. Goals regulate relevance by selecting among admissible instances. They do not redefine what a fish is. They do not reassign the values of the instance.
 
@@ -215,29 +181,17 @@ These constraints are not predefined classes. The system constructs them at runt
 
 <p align="center">**Project 4 Dinner Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project 4 ******Dinner  Run****** Commands***
-
 <img src="../../assets/figures/appendix-c/figure-26.png" />
 
 <p align="center">**Project 4 Dinner Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******4****** Dinner Output***
 
 <img src="../../assets/figures/appendix-c/figure-27.png" />
 
 <p align="center">**Project 4 Pet Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project 4 ******Pet  Run****** Commands***
-
 <img src="../../assets/figures/appendix-c/figure-21.png" />
 
 <p align="center">**Project 4 Pet Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project 4 Pet Output***
 
 This behavior demonstrates that runtime flexibility does not require conceptual drift. The system may construct a use-specific constraint structure, but the structure remains determinate for each execution. The active goal changes the constraint specification. It does not erase the need for constraint.
 
@@ -277,15 +231,9 @@ In Project 5, the code applies multiple goals sequentially to the same set of ob
 
 <p align="center">**Project 5 Run Commands**</p>
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******5****** Run Comma******nds***
-
 <img src="../../assets/figures/appendix-c/figure-33.png" />
 
 <p align="center">**Project 5 Run Output**</p>
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-***Project ******5****** Run Output***
 
 This behavior demonstrates that a single object can satisfy multiple goal-bound constraint structures. Its identity remains stable across all evaluations. What changes is the role the object plays under different goals.
 

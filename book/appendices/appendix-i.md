@@ -1,4 +1,6 @@
-# Appendix I: Detailed Scoring Rationales and Consolidated Weighted Scoring Matrix
+# Appendix I: Evaluating the Models
+
+## Scoring Rationales and Weighted Matrix
 
 In Chapter 9, I conduct a comparative trade study of candidate theories, frameworks, and models of emotion. Appendix F establishes the candidate pool. Appendix G establishes the methodology for comparing those candidates, and Appendix H derives the macro- and micro-level weighting structure from that methodology. In this appendix, I apply that methodology by assigning numerical scores to each qualifying candidate across the four governing domains: definitional adequacy, analytic coherence, cognitive-semiotic adequacy, and computational adequacy.<sup><a href="../references/notes/appendix-i.md#note-1">1</a></sup>
 
@@ -38,7 +40,7 @@ Behaviorist and associative accounts explain emotion through conditioning, reinf
 
 The remaining four candidates satisfy the definitional gate and therefore advance to the weighted phase of the comparative trade study. The scoring tables below assign a value between 0.00 and 1.00 to each governing principle within the four evaluative domains. I compute each macro-level domain score as the weighted arithmetic mean of its corresponding micro-level principle scores using the weighting structure I established in Appendix H. These macro-level scores then produce each candidate's overall weighted score and the rationale supporting it.<sup><a href="../references/notes/appendix-i.md#note-11">11</a></sup> <sup><a href="../references/notes/appendix-i.md#note-12">12</a></sup>
 
-I. Appraisal Theories (Richard S. Lazarus, Ira J. Roseman)
+I. Appraisal Theories (Richard S. Lazarus, 1922–2002; Ira J. Roseman)
 
 Definitional Domain
 
@@ -125,7 +127,7 @@ Appraisal theories remain computationally tractable because they provide suffici
 
 The lower scores reflect a more fundamental architectural limitation. Formal implementations typically transform appraisal into parameter evaluation,<sup><a href="../references/notes/appendix-i.md#note-48">48</a></sup> decision rules,<sup><a href="../references/notes/appendix-i.md#note-49">49</a></sup> or feature mappings<sup><a href="../references/notes/appendix-i.md#note-50">50</a></sup> that automatically produce emotional outcomes.<sup><a href="../references/notes/appendix-i.md#note-51">51</a></sup> In doing so, they fail to preserve interpretation as a distinct, goal-directed act performed by an agent.<sup><a href="../references/notes/appendix-i.md#note-52">52</a></sup> The resulting implementation weakens Ontological Separability, Instantiation Integrity, Symbolic Reference Integrity, Interpretive Governance, and Agent and Goal Preservation.<sup><a href="../references/notes/appendix-i.md#note-53">53</a></sup> Appraisal theories therefore remain computationally implementable without fully preserving the cognitive-semiotic architecture of emotional meaning.<sup><a href="../references/notes/appendix-i.md#note-54">54</a></sup>
 
-II. Component Process Model (CPM) (Klaus R. Scherer)
+II. Component Process Model (CPM) (Klaus R. Scherer, 1943–)
 
 Definitional Domain
 
@@ -210,7 +212,7 @@ CPM performs reasonably well in the computational domain because its explicit se
 
 The lower scores reflect the theory’s treatment of interpretation as the outcome of a computational sequence rather than as an interpretive act that an agent carries out according to governing standards.<sup><a href="../references/notes/appendix-i.md#note-98">98</a></sup> Although CPM successfully models transitions among its constituent processes, formal implementation still reduces emotional meaning to the completion of those processes rather than preserving interpretation as a distinct cognitive-semiotic operation.<sup><a href="../references/notes/appendix-i.md#note-99">99</a></sup> Consequently, Instantiation Integrity, Symbolic Reference Integrity, Interpretive Governance, and Agent and Goal Preservation remain only partially satisfied.<sup><a href="../references/notes/appendix-i.md#note-100">100</a></sup> CPM therefore provides a stronger computational architecture than general appraisal theory while stopping short of preserving the full cognitive-semiotic architecture of emotional meaning.<sup><a href="../references/notes/appendix-i.md#note-101">101</a></sup>
 
-III. Conceptual Act Theory / Theory of Constructed Emotion (TCE) (Lisa Feldman Barrett)
+III. Conceptual Act Theory / Theory of Constructed Emotion (TCE) (Lisa Feldman Barrett, 1963–)
 
 Definitional Domain
 
@@ -295,7 +297,7 @@ TCE performs best in the computational domain because its explanatory architectu
 
 The lower scores reflect a more fundamental architectural limitation. Although TCE readily supports computational implementation, its implementations typically treat prediction, categorization, and neural processing as sufficient to produce emotional meaning.<sup><a href="../references/notes/appendix-i.md#note-146">146</a></sup> They do not preserve interpretation as a distinct, goal-directed act that an interpreting agent carries out according to standards of correctness.<sup><a href="../references/notes/appendix-i.md#note-147">147</a></sup> As a result, Ontological Separability, Instantiation Integrity, Symbolic Reference Integrity, Interpretive Governance, and Agent and Goal Preservation remain only partially satisfied.<sup><a href="../references/notes/appendix-i.md#note-148">148</a></sup> TCE therefore demonstrates exceptional computational tractability without fully preserving the cognitive-semiotic architecture of emotional meaning.<sup><a href="../references/notes/appendix-i.md#note-149">149</a></sup>
 
-IV. Affective Neuroscience (Jaak Panksepp)
+IV. Affective Neuroscience (Jaak Panksepp, 1943–2017)
 
 (Physiological Affective Layer Only)
 
@@ -384,7 +386,7 @@ The score remains below perfection because computational implementation preserve
 
 | Candidate Theory / Model | Definitional (30%) | Analytic (20%) | Cognitive-Semiotic (25%) | Computational (25%) | Total Weighted Score |
 | --- | --- | --- | --- | --- | --- |
-| Appraisal Theories (Lazarus, Roseman) | 0.75 × 30 = 22.5 | 0.65 × 20 = 13.0 | 0.70 × 25 = 17.5 | 0.55 × 25 = 13.75 | 66.75 |
+| Appraisal Theories (Lazarus, Roseman) | 0.75 × 30 = 22.5 | 0.65 × 20 = 13.0 | 0.7175 × 25 = 17.94 | 0.55 × 25 = 13.75 | 67.19 |
 | Component Process Model (CPM) (Scherer) | 0.80 × 30 = 24.0 | 0.70 × 20 = 14.0 | 0.65 × 25 = 16.25 | 0.60 × 25 = 15.0 | 69.25 |
 | Affective Neuroscience (Panksepp) (Feeling only) | 0.90 × 30 = 27.0 | 0.75 × 20 = 15.0 | 0.40 × 25 = 10.0 | 0.80 × 25 = 20.0 | 72.00 |
 | Conceptual Act Theory / Theory of Constructed Emotion (TCE) | 0.55 × 30 = 16.5 | 0.50 × 20 = 10.0 | 0.45 × 25 = 11.25 | 0.65 × 25 = 16.25 | 54.00 |
@@ -397,4 +399,4 @@ The trade study demonstrates that no existing candidate preserves every governin
 
 The comparative trade study now stands complete.<sup><a href="../references/notes/appendix-i.md#note-203">203</a></sup> The Constructivist Semiotic Model of Emotions follows from these results rather than competing with them.<sup><a href="../references/notes/appendix-i.md#note-204">204</a></sup> Throughout the remainder of Chapter 9, I finalize the CSME by integrating the strongest architectural contributions of the qualifying candidates while repairing the structural deficiencies identified by the trade study.<sup><a href="../references/notes/appendix-i.md#note-205">205</a></sup> As noted in Appendix F, I also incorporate selected architectural features of Basic Emotion Theory and the Component Process Model whenever those features strengthen the final architecture without reintroducing the identity, cognitive-semiotic, or computational limitations that prevent those theories from serving as complete architectural foundations for emotional meaning.<sup><a href="../references/notes/appendix-i.md#note-206">206</a></sup>
 
-[Return to Chapter 9: *Emotions Are Not Triggered; They Are Made*](../part-4/chapter-09.md)
+[Return to Chapter 9: *Emotions Are Made, Not Triggered: How We Construct Emotional Meaning*](../part-4/chapter-09.md)

@@ -1,12 +1,12 @@
-# Appendix B: Complex Affective UML Architecture Diagrams
+# Appendix B: Blueprinting the Mind
 
-## Modeling How Emotions Are Made
+## Reverse Engineering How Emotions Are Made
 
 In Chapter 2, I argued that a definition can do its work only when it specifies the architecture that governs identity. Appendix A then tested Basic Emotion Theory against the demands of identity, non-circularity, and analytic consequence. This appendix turns from critique to formal construction. If I treat emotion as something the mind constructs rather than something the body simply reveals, then I must show how construction can preserve identity without collapsing into arbitrariness. 
 
 Natural language can state that requirement, but it cannot always discipline it. Prose tolerates ambiguity. It can conceal category errors. It can let identity drift across explanations without warning. UML and design patterns give me a stricter grammar. They force me to separate type from instance, structure from realization, and conceptual identity from contextual variation. 
 
-In the diagrams and design patterns that follow, I do not claim to model neural activity or psychological mechanism. I model structure. Each figure formalizes a requirement the main text develops: the separation of genus and species in affective states, the distinction between identity and instantiation, the syntagmatic ordering required for meaning, and the principled generation of emotional episodes from stable conceptual architecture.<sup><a href="../references/notes/appendix-b.md#note-1">1</a></sup>  The diagrams show how emotions can arise as context-sensitive instantiations of declared structure rather than as detected entities or post hoc labels.  This appendix therefore demonstrates, rather than merely asserts, how emotional construction can remain explicit, inspectable, and constrained.
+In the diagrams and design patterns that follow, I do not claim to model neural activity or psychological mechanism. I model structure. Each figure formalizes a requirement the main text develops: the separation of genus and species in affective states, the distinction between identity and instantiation, the syntagmatic ordering required for meaning, and the principled generation of emotional episodes from stable conceptual architecture.<sup><a href="../references/notes/appendix-b.md#note-1">1</a></sup> The diagrams show how emotions can arise as context-sensitive instantiations of declared structure rather than as detected entities or post hoc labels. This appendix therefore demonstrates, rather than merely asserts, how emotional construction can remain explicit, inspectable, and constrained.
 
 <img src="../../assets/figures/appendix-b/figure-01.png" />
 
@@ -38,8 +38,6 @@ The Gang of Four patterns do not describe mental mechanisms. They formalize stru
 
 <p align="center">**Figure B-3. Factory Design Pattern: Emotion Construction**</p>
 
-Figure B-3. Factory Design Pattern: Emotion Construction
-
 Figure B-3 models emotion construction using the Factory design pattern, which separates the declaration of a type from the logic responsible for creating its instances. In this architecture, Emotion functions as an abstract class that fixes the shared structural properties of an emotion, such as valence, context, and expression. The class defines identity conditions but does not instantiate any emotional episode.
 
 Concrete subclasses, Joy, Fear, and Anger, inherit this structure while assigning different values to it. In object-oriented terms, inheritance preserves conceptual identity while allowing variation in individual instances.
@@ -70,13 +68,9 @@ You can also run the code using joy or anger as the input parameter.
 
 If the input parameter were joy or anger, the output would change accordingly.
 
-### Figure B-4. Prototype Design Pattern: Emotion Construction UML
-
 <img src="../../assets/figures/appendix-b/figure-07.png" />
 
 <p align="center">**Figure B-4. Prototype Design Pattern: Emotion Construction UML**</p>
-
-Figure B-4. Prototype Design Pattern: Emotion Construction UML
 
 Figure B-4 models emotion construction using the Prototype design pattern. The diagram shows how new emotional instances can arise through structured reuse rather than fresh construction.
 
@@ -100,7 +94,7 @@ This pattern formalizes a central constructionist claim without psychologizing i
 
 These diagrams do not claim that the mind implements factories or prototypes. They claim something narrower and stronger: any coherent account of emotion must separate identity from instantiation. The Gang of Four patterns provide a formal grammar for making that separation explicit, inspectable, and non-rhetorical.
 
-Please see *Appendix E: Chrome DevTools Demonstration of Layered Ontology*, for a code walkthrough of the JavaScript Prototype Object Model.
+Please see *Appendix E: Under the Hood of Mind and Meaning: A Software Developer’s Guide to Layered Ontology* for a code walkthrough of the JavaScript Prototype Object Model.
 
 Appendix B completes Chapter 2’s constructive argument: emotion can be constructed without losing identity, provided the model preserves the architecture that distinguishes concept, instance, context, and interpretation. The inheritance diagram separates genus from species: Feeling supplies shared affective structure, while Emotion, Mood, and DriveState specialize that structure through different constraints. The syntagmatic appraisal diagram then fixes the relational form that meaning requires. An agent appraises something as something. That ordered relation prevents appraisal from collapsing into a private impression, a bodily mechanism, or an isolated label.
 

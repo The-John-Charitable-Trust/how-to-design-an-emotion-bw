@@ -1,8 +1,8 @@
-# Appendix M: Formal CSS Walkthrough
+# Appendix M: Code, Color, and Sound
 
-## The Color Red, The Sound of a Tree, and Gamelan
+## A Software Architect’s Walkthrough of Constructivist Semiotics
 
-Lisa Feldman Barrett uses the red apple, the falling tree, and unfamiliar gamelan music to illustrate the claim that perception depends upon concepts.<sup><a href="../references/notes/appendix-m.md#note-1">1</a></sup> Cognitive science and philosophy of perception widely support the view that sensory input alone does not yield determinate experience. Conceptual constraint organizes sensory input into recognizable categories such as color, sound, or music.<sup><a href="../references/notes/appendix-m.md#note-2">2</a></sup>
+Lisa Feldman Barrett (b. 1963) uses the red apple, the falling tree, and unfamiliar gamelan music to illustrate the claim that perception depends upon concepts.<sup><a href="../references/notes/appendix-m.md#note-1">1</a></sup> Cognitive science and philosophy of perception widely support the view that sensory input alone does not yield determinate experience. Conceptual constraint organizes sensory input into recognizable categories such as color, sound, or music.<sup><a href="../references/notes/appendix-m.md#note-2">2</a></sup>
 
 My extension is architectural. Conceptual constraint provides a necessary condition for meaning, but it is not sufficient for full semiotic interpretation. Meaning arises only when conceptual constraint operates within a broader structure of interpretation. The constituents of the sign must coordinate for intensional interpretation to occur. Each case below can therefore be analyzed as an instance of this semiotic architecture.
 
@@ -28,7 +28,7 @@ Distorted lighting may prevent the construct from satisfying the governing condi
 
 Sound: If a Tree Falls in a Forest
 
-We turn next to sound. The familiar philosophical question asks whether a falling tree produces sound in the absence of a listener. Philosophers have long debated this problem in connection with distinctions between physical vibration and auditory experience.<sup><a href="../references/notes/appendix-m.md#note-5">5</a></sup>
+We turn next to sound. The familiar philosophical question asks whether a falling tree produces sound in the absence of a listener. The question is popularly associated with George Berkeley (1685–1753), although it does not appear in his writings; it turns on the distinction between physical vibration and auditory experience.<sup><a href="../references/notes/appendix-m.md#note-5">5</a></sup>
 
 Within the CSS framework, the disagreement can be understood as arising from different ways of defining the concept SOUND.
 
